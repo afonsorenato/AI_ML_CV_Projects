@@ -2,6 +2,7 @@ import cv2
 import time
 import numpy as np
 import math
+
 import HandTrackingModule as htm
 from ctypes import cast, POINTER
 from comtypes import CLSCTX_ALL
