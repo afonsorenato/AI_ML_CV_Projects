@@ -2,7 +2,6 @@ import cv2
 import time
 import numpy as np
 import math
-
 import HandTrackingModule as htm
 from ctypes import cast, POINTER
 from comtypes import CLSCTX_ALL
@@ -32,7 +31,7 @@ while True:
     ok, img = cap.read()
     img = detector.findHands(img)
     lmList = detector.findPosition(img, draw=False)
-    volume.SetMasterVolumeLevel(0, None)
+
     if len(lmList) != 0:
 
         P1 = lmList[4][1], lmList[4][2]
@@ -65,3 +64,6 @@ while True:
     cv2.putText(img, f'FPS:{int(fps)}', (40, 40), cv2.FONT_HERSHEY_SIMPLEX, 1, (255,0,0), 2)
     cv2.imshow("Img", img)
     cv2.waitKey(1)
+
+volume.SetMasterVolumeLevel(0, None)
+

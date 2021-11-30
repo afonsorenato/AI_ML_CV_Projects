@@ -49,6 +49,8 @@ def main():
 
     while True:
         ok, img = cap.read()
+
+        # Find hands
         img = detector.findHands(img)
         lmList = detector.findPosition(img)
         if len(lmList) != 0:
