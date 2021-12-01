@@ -25,12 +25,12 @@ pTime = 0
 vol = volBar = volPer = 0
 
 #Detector
-detector = htm.handDetector(detectionCon = 0.7)
+detector = htm.handDetector(detectionCon = 0.7, maxHands=1)
 
 while True:
     ok, img = cap.read()
     img = detector.findHands(img)
-    lmList = detector.findPosition(img, draw=False)
+    lmList, bbox = detector.findPosition(img, draw=False)
 
     if len(lmList) != 0:
 
