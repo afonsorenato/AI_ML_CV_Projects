@@ -7,9 +7,9 @@ def WelcomeMenu(img):
     img_w = 140
     img_h = 140
     size = (img_w, img_h)
-    squat = cv2.resize(cv2.imread("menu_squat.PNG"), size)
-    leg = cv2.resize(cv2.imread("menu_leg_raises.PNG"), size)
-    push = cv2.resize(cv2.imread("menu_push_up.PNG"), size)
+    squat = cv2.resize(cv2.imread("Images/menu_squat.PNG"), size)
+    leg = cv2.resize(cv2.imread("Images/menu_leg_raises.PNG"), size)
+    push = cv2.resize(cv2.imread("Images/menu_push_up.PNG"), size)
 
     out = img
     out[0:img_h, 20:160] = squat
