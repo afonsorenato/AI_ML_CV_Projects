@@ -8,18 +8,18 @@ import numpy as np
 from playsound import playsound
 
 labels = {}
-with open("labels.pickle", 'rb') as f:
+with open("Others/labels.pickle", 'rb') as f:
     og_labels = pickle.load(f)
     labels = {v: k for k, v in og_labels.items()}
 
-predictor_path = os.path.join("shape_predictor_68_face_landmarks.dat")
+predictor_path = os.path.join("Others/shape_predictor_68_face_landmarks.dat")
 predictor = dlib.shape_predictor(predictor_path)
 detector = dlib.get_frontal_face_detector()
 recognizer = cv2.face.LBPHFaceRecognizer_create()
-recognizer.read("trainner.yml")
-net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
+recognizer.read("Others/trainner.yml")
+net = cv2.dnn.readNet("Others/yolov3-tiny.weights", "Others/yolov3-tiny.cfg")
 
-with open("coco.names.txt", 'r') as f:
+with open("Others/coco.names.txt", 'r') as f:
     classes = [line.strip() for line in f.readlines()]
 
 # Pose estimator
@@ -104,6 +104,7 @@ def welcomeFunction(cap):
            cv2.destroyAllWindows()
 
     return name
+
 def norma(a, b):
     c = a[0] - b[0]
     d = a[1] - b[1]
@@ -240,7 +241,7 @@ def getCellPhone(img, net, classes, color):
 
 #-------------------Main ------------------------------------
 cap = cv2.VideoCapture(0)
-name = welcomeFunction(cap)
+#name = welcomeFunction(cap)
 count = 0
 color = (0,255,0)
 

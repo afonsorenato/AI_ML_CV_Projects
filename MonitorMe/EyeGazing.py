@@ -7,6 +7,7 @@ def norma(a, b):
     d = a[1] - b[1]
     y = (c, d)
     return np.sqrt(y[0] * y[0] + y[1] * y[1])
+
 def getEAR(landmarks):
     #Get EAR - ||p2-p6|| + ||p3-p5||)/(2*||p1-p4||
     p1 = (landmarks.part(36).x, landmarks.part(36).y)
@@ -37,6 +38,7 @@ def getInfo(landmarks, frame):
         cv2.putText(frame, "Blinking", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2, cv2.LINE_AA)
 
     return frame
+
 def getGaze(landmarks, frame):
     left_eye_region = np.array([
         (landmarks.part(36).x, landmarks.part(36).y),
