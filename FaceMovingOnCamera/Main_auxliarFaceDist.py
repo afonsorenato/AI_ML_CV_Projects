@@ -7,8 +7,9 @@ import methods
 #Estimate distance to an object (then, to the face)
 cap = cv2.VideoCapture(0)
 
-face_cascade = cv2.CascadeClassifier('haar\haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 count = 1
+w = 0
 
 while 1:
 
@@ -21,18 +22,19 @@ while 1:
         gray = cv2.rectangle(gray, (x, y), (x + w, y + h), (0, 0, 255), 2)
 
     #-----second part---------------------------------------------------
-    width_faceInPixels = w #Width of my face (just testing)
-    width_faceInCM = 15 #cm
-    fl = 812/2
-    count += 1
+    if w > 0:
+        width_faceInPixels = w #Width of my face (just testing)
+        width_faceInCM = 15 #cm
+        fl = 812/2
+        count += 1
 
-    if count > 10:
-        dist = width_faceInCM*fl/width_faceInPixels
-        print("width pixels: " + str(round(width_faceInPixels)))
-        print(str(round(dist)) + "cm")
-        count = 0
+        if count > 10:
+            dist = width_faceInCM*fl/width_faceInPixels
+            print("Width pixels: " + str(round(width_faceInPixels)))
+            print(str(round(dist)) + "cm")
+            count = 0
 
-    cv2.imshow("Canny gray image", gray)
+    cv2.imshow("Output", gray)
     key = cv2.waitKey(20)
     if key == ord('q'):
         break

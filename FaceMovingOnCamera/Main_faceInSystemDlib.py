@@ -1,6 +1,6 @@
-#identifies a face and the eyes
-#tells if user is inside or outside the eye-box
-#indicates which area of the eye-box is in: 1, 2 or 3
+# Identifies a face and the eyes
+# Tells if user is inside or outside the eye-box
+# Indicates which area of the eye-box is in: 1, 2 or 3
 
 """
 #Open Points
@@ -17,8 +17,8 @@ face_ref = 12
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
-face_cascade = cv2.CascadeClassifier('haar\haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('haar\haarcascade_eye.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 video = cv2.VideoCapture(0)
 
 while True:
