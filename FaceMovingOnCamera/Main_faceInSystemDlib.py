@@ -19,10 +19,15 @@ predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
-video = cv2.VideoCapture(0)
 
-while True:
+#video = cv2.VideoCapture(0)
+video = cv2.VideoCapture("Video1.mp4")
+check, img = video.read()
+
+while check:
+
     check, img = video.read()
+    img = cv2.resize(img, (800, 450))
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     faces = detector(gray)
 
@@ -47,4 +52,3 @@ while True:
         break
 
 video.release()
-cv2.destroyWindow()
