@@ -24,9 +24,13 @@ eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 video = cv2.VideoCapture("Video1.mp4")
 check, img = video.read()
 
-while check:
+while True:
 
     check, img = video.read()
+
+    if check is False:
+        break
+
     img = cv2.resize(img, (800, 450))
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     faces = detector(gray)
