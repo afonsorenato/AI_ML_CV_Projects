@@ -1,5 +1,7 @@
 FROM python:3.6
 
+MAINTAINER Renato_Afonso
+
 # Add relevant files
 ADD requirements.txt .
 ADD Google_Stock_Price_Test.csv .
