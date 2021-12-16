@@ -1,8 +1,10 @@
 import cv2
 import numpy as np
+import os, os.path
 
 # START HERE: Chose an image
-img = cv2.imread('Aux_Files/human.png')
+image_name = "human.png"
+img = cv2.imread('Aux_Files/' + image_name)
 
 
 # getListOfNames function that gets a txt file with classes names and outputs a list with those names
@@ -88,5 +90,15 @@ output_with_objs = cv2.add(final_img, final_mask_not)
 output_without_objs = cv2.add(final_img, final_mask_yes)
 
 # Both images together for simplicity
-cv2.imshow("Results", cv2.resize(cv2.hconcat([output_with_objs, output_without_objs]), (900, 500)))
+output = cv2.resize(cv2.hconcat([output_with_objs, output_without_objs]), (900, 500))
+cv2.imshow("Results", output)
+
+# Saves new file on Results folder with an index
+list = os.listdir("Results")
+file_count = len(list)
+
+#print("Files in Results directory: " + str(file_count))
+output_file_name = "Results/" + str(int(file_count+ 1)) + "_" + image_name[:-4] + ".jpg"
+print("Saved file: " + str(output_file_name))
+cv2.imwrite(output_file_name, output)
 cv2.waitKey(0)
