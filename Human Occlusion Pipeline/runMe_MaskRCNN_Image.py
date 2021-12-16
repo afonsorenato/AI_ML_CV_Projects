@@ -10,18 +10,18 @@ def getListOfNames(file_name):
 	return content_list
 
 
-class_names = getListOfNames("coco_names.txt")
+class_names = getListOfNames("Aux_Files/coco_names.txt")
 
 
 # Loading Mask RCNN
-net = cv2.dnn.readNetFromTensorflow("frozen_inference_graph_coco.pb", "mask_rcnn_inception_v2_coco_2018_01_28.pbtxt")
+net = cv2.dnn.readNetFromTensorflow("Aux_Files/frozen_inference_graph_coco.pb", "Aux_Files/mask_rcnn_inception_v2_coco_2018_01_28.pbtxt")
 
 # Generate random colors
 colors = np.random.randint(0, 255, (80, 3))
 
 #cap = cv2.VideoCapture(0)
 
-img = cv2.imread('horse.jpg')
+img = cv2.imread('Aux_Files/human.png')
 height, width, _ = img.shape
 
 # Create black image
@@ -33,7 +33,6 @@ net.setInput(blob)
 
 boxes, masks = net.forward(["detection_out_final", "detection_masks"])
 detection_count = boxes.shape[2]
-print("Detection count: " + str(detection_count))
 
 for i in range(detection_count):
 	box = boxes[0, 0, i]
@@ -42,7 +41,7 @@ for i in range(detection_count):
 
 	# Gets the name of the class
 	if box[2] > 0:
-		print(class_names[class_id])
+		print("Class name: " + str(class_names[class_id]) + "-> " + str(int(score*100)) + "%")
 
 	# If the confidence is very low, ignores the object
 	if score < 0.5:
@@ -51,7 +50,7 @@ for i in range(detection_count):
 	# Get box Coordinates
 	x, y = int(box[3] * width),  int(box[4] * height)
 	x2, y2 = int(box[5] * width), int(box[6] * height)
-	cv2.putText(final_mask_not, "Hello", (x,y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 150, 0), 2)
+	cv2.putText(final_mask_not, str(class_names[class_id]), (x,y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 150, 0), 2)
 
 	roi = final_mask_not[y: y2, x: x2]
 	roi_height, roi_width, _ = roi.shape

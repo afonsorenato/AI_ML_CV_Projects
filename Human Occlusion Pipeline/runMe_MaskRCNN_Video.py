@@ -11,7 +11,7 @@ def getListOfNames(file_name):
 
 
 # Loading Mask RCNN
-class_names = getListOfNames("coco_names.txt")
+class_names = getListOfNames("Aux_Files/coco_names.txt")
 net = cv2.dnn.readNetFromTensorflow("frozen_inference_graph_coco.pb", "mask_rcnn_inception_v2_coco_2018_01_28.pbtxt")
 
 #size = (500, 500)
