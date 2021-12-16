@@ -97,7 +97,7 @@ cv2.imshow("Results", output)
 list = os.listdir("Results")
 file_count = len(list)
 
-#print("Files in Results directory: " + str(file_count))
+print("Files in Results directory: " + str(file_count))
 output_file_name = "Results/" + str(int(file_count+ 1)) + "_" + image_name[:-4] + ".jpg"
 print("Saved file: " + str(output_file_name))
 cv2.imwrite(output_file_name, output)
