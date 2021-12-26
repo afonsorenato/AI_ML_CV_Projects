@@ -9,7 +9,7 @@
 -> Verify distance face estimation (compare / measure it in bench)
 """
 import cv2
-from FaceMovingOnCamera.Aux_files import methods
+from Aux_files import methods
 import dlib
 
 face_ref = 12

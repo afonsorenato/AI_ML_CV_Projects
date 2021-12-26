@@ -1,4 +1,4 @@
-#3d representation of a cabin, driver as blue sphere, the eye-box piramid and the windshield in red stripes
+# 3d representation of a cabin, driver as blue sphere, the eye-box piramid and the windshield in red stripes
 
 import cv2
 import numpy as np
@@ -7,8 +7,8 @@ from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 import matplotlib.pyplot as plt
 from itertools import product, combinations
 
-face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
+face_cascade = cv2.CascadeClassifier('Aux_files/haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier('Aux_files/haarcascade_eye.xml')
 
 cap = cv2.VideoCapture(0)
 

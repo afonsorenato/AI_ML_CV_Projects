@@ -58,7 +58,7 @@ while True:
             cv2.circle(img, P3, 15, (0, 255, 0), -1)
 
     cTime = time.time()
-    fps = 1/(cTime-pTime)
+    fps = 1/(cTime+0.1-pTime)
     pTime = cTime
 
     cv2.putText(img, f'FPS:{int(fps)}', (40, 40), cv2.FONT_HERSHEY_SIMPLEX, 1, (255,0,0), 2)

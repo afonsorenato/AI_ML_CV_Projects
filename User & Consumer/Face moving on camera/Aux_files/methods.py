@@ -70,13 +70,13 @@ def drawEyeBoxSize(faceDist, img):
     h = int(init_hight - ratio_per_cm * faceDist)
 
     width, height = img.shape[:2]
-    x = int(width / 2)
-    y = int(height / 2 - h)
+    x = int(width /1-60)
+    y = int(height / 4 - h-30)
 
     cv2.rectangle(img, (x, y), (x + w, y + h), (0, 0, 255), 2)
     aux = "Dist from camera: " + str(faceDist) + " cm"
     cv2.putText(img, aux, (50, 100), cv2.FONT_HERSHEY_SIMPLEX, 0.3, (0, 0, 255), 1)
-    cv2.putText(img, 'HUD Eye-box', (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.3, (0, 0, 255), 1)
+    cv2.putText(img, ' Eye-box', (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.3, (0, 0, 255), 1)
 
     return x, y, w, h
 
