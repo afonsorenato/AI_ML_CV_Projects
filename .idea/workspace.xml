@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c33c06da-8ebe-42ed-b9ba-bfba34fcc063" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Shoe Rack Interface/Requirements.txt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User Monitoring System/Others/labels.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CV_Projects.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI PersonalTrainer/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/AI PersonalTrainer/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI PersonalTrainer/Main_PersonalTrainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/AI PersonalTrainer/Main_PersonalTrainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI PersonalTrainer/trainMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/AI PersonalTrainer/Functions/trainMenu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/Aux_files/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/Main__faceInsystemDlib.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/Main_faceInSystemDlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/Main_faceInSystemDlib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/Main_faceInSystemDlib.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/Main_liveFaceplot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/Main_liveFaceplot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/UserMonitoring.py" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/Aux_files/UserMonitoring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/Video1.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/Aux_files/Video1.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/eyeswithvideo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/Aux_files/eyeswithvideo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/faceInSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/Aux_files/faceInSystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/facewithvideo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/Aux_files/facewithvideo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/haarcascade_eye.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/Aux_files/haarcascade_eye.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/haarcascade_frontalface_default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/Aux_files/haarcascade_frontalface_default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/Aux_files/methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/Main_faceInSystemDlib.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/Main_faceInSystemDlib.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/VCRUNTIME140.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/VCRUNTIME140.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/_asyncio.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/_asyncio.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/_bz2.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/_bz2.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/_ctypes.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/_ctypes.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/_decimal.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/_decimal.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/_hashlib.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/_hashlib.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/_lzma.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/_lzma.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/_multiprocessing.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/_multiprocessing.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/_overlapped.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/_overlapped.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/_queue.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/_queue.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/_socket.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/_socket.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/_ssl.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/_ssl.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/altgraph-0.17.2.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/altgraph-0.17.2.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/altgraph-0.17.2.dist-info/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/altgraph-0.17.2.dist-info/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/altgraph-0.17.2.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/altgraph-0.17.2.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/altgraph-0.17.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/altgraph-0.17.2.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/altgraph-0.17.2.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/altgraph-0.17.2.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/altgraph-0.17.2.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/altgraph-0.17.2.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/altgraph-0.17.2.dist-info/zip-safe" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/altgraph-0.17.2.dist-info/zip-safe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cffi-1.15.0.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cffi-1.15.0.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cffi-1.15.0.dist-info/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cffi-1.15.0.dist-info/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cffi-1.15.0.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cffi-1.15.0.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cffi-1.15.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cffi-1.15.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cffi-1.15.0.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cffi-1.15.0.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cffi-1.15.0.dist-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cffi-1.15.0.dist-info/entry_points.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cffi-1.15.0.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cffi-1.15.0.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cv2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cv2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cv2/config-3.10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cv2/config-3.10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cv2/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cv2/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cv2/cv2.cp310-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cv2/cv2.cp310-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cv2/data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cv2/data/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cv2/gapi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cv2/gapi/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cv2/load_config_py2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cv2/load_config_py2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cv2/load_config_py3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cv2/load_config_py3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cv2/mat_wrapper/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cv2/mat_wrapper/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cv2/misc/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cv2/misc/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cv2/misc/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cv2/misc/version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cv2/opencv_videoio_ffmpeg454_64.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cv2/opencv_videoio_ffmpeg454_64.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cv2/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cv2/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/cv2/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/cv2/version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/libcrypto-1_1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/libcrypto-1_1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/libffi-7.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/libffi-7.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/libopenblas.XWYDX2IKJW2NMTWSFYNGFUWKQU3LYTCZ.gfortran-win_amd64.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/libopenblas.XWYDX2IKJW2NMTWSFYNGFUWKQU3LYTCZ.gfortran-win_amd64.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/libssl-1_1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/libssl-1_1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/numpy/core/_multiarray_tests.cp310-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/numpy/core/_multiarray_tests.cp310-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/numpy/core/_multiarray_umath.cp310-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/numpy/core/_multiarray_umath.cp310-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/numpy/fft/_pocketfft_internal.cp310-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/numpy/fft/_pocketfft_internal.cp310-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/numpy/linalg/_umath_linalg.cp310-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/numpy/linalg/_umath_linalg.cp310-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/numpy/linalg/lapack_lite.cp310-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/numpy/linalg/lapack_lite.cp310-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/numpy/random/_bounded_integers.cp310-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/numpy/random/_bounded_integers.cp310-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/numpy/random/_common.cp310-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/numpy/random/_common.cp310-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/numpy/random/_generator.cp310-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/numpy/random/_generator.cp310-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/numpy/random/_mt19937.cp310-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/numpy/random/_mt19937.cp310-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/numpy/random/_pcg64.cp310-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/numpy/random/_pcg64.cp310-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/numpy/random/_philox.cp310-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/numpy/random/_philox.cp310-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/numpy/random/_sfc64.cp310-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/numpy/random/_sfc64.cp310-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/numpy/random/bit_generator.cp310-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/numpy/random/bit_generator.cp310-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/numpy/random/mtrand.cp310-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/numpy/random/mtrand.cp310-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/pyexpat.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/pyexpat.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/pyinstaller-4.7.dist-info/COPYING.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/pyinstaller-4.7.dist-info/COPYING.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/pyinstaller-4.7.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/pyinstaller-4.7.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/pyinstaller-4.7.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/pyinstaller-4.7.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/pyinstaller-4.7.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/pyinstaller-4.7.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/pyinstaller-4.7.dist-info/REQUESTED" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/pyinstaller-4.7.dist-info/REQUESTED" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/pyinstaller-4.7.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/pyinstaller-4.7.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/pyinstaller-4.7.dist-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/pyinstaller-4.7.dist-info/entry_points.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/pyinstaller-4.7.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/pyinstaller-4.7.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/python310.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/python310.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/select.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/select.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/setuptools-58.1.0.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/setuptools-58.1.0.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/setuptools-58.1.0.dist-info/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/setuptools-58.1.0.dist-info/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/setuptools-58.1.0.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/setuptools-58.1.0.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/setuptools-58.1.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/setuptools-58.1.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/setuptools-58.1.0.dist-info/REQUESTED" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/setuptools-58.1.0.dist-info/REQUESTED" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/setuptools-58.1.0.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/setuptools-58.1.0.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/setuptools-58.1.0.dist-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/setuptools-58.1.0.dist-info/entry_points.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/setuptools-58.1.0.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/setuptools-58.1.0.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/output/Main_faceInSystemDlib/unicodedata.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/output/Main_faceInSystemDlib/unicodedata.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceMovingOnCamera/shape_predictor_68_face_landmarks.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Face moving on camera/Aux_files/shape_predictor_68_face_landmarks.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandTrackingModule/HandTracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/HandTrackingModule/HandTracking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandTrackingModule/HandTrackingGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/HandTrackingModule/HandTrackingGame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandTrackingModule/HandTrackingModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/HandTrackingModule/HandTrackingModule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human_Occlusion_Pipeline/Aux_Files/coco_names.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Human Anonimation Pipeline/Aux_Files/coco_names.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human_Occlusion_Pipeline/Aux_Files/dog_cat.png" beforeDir="false" afterPath="$PROJECT_DIR$/Human Anonimation Pipeline/Aux_Files/dog_cat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human_Occlusion_Pipeline/Aux_Files/frozen_inference_graph_coco.pb" beforeDir="false" afterPath="$PROJECT_DIR$/Human Anonimation Pipeline/Aux_Files/frozen_inference_graph_coco.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human_Occlusion_Pipeline/Aux_Files/horse.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Human Anonimation Pipeline/Aux_Files/horse.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human_Occlusion_Pipeline/Aux_Files/human.png" beforeDir="false" afterPath="$PROJECT_DIR$/Human Anonimation Pipeline/Aux_Files/human.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human_Occlusion_Pipeline/Aux_Files/mask_rcnn_inception_v2_coco_2018_01_28.pbtxt" beforeDir="false" afterPath="$PROJECT_DIR$/Human Anonimation Pipeline/Aux_Files/mask_rcnn_inception_v2_coco_2018_01_28.pbtxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human_Occlusion_Pipeline/Aux_Files/runVideo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Human Anonimation Pipeline/Aux_Files/runVideo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human_Occlusion_Pipeline/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Human Anonimation Pipeline/ReadMe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human_Occlusion_Pipeline/Results/1_human.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Human Anonimation Pipeline/Results/1_human.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human_Occlusion_Pipeline/Results/2_10hz_video_test.avi" beforeDir="false" afterPath="$PROJECT_DIR$/Human Anonimation Pipeline/Results/2_10hz_video_test.avi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human_Occlusion_Pipeline/Results/3_30hz_video_test.avi" beforeDir="false" afterPath="$PROJECT_DIR$/Human Anonimation Pipeline/Results/3_30hz_video_test.avi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human_Occlusion_Pipeline/Results/3_video_test.avi" beforeDir="false" afterPath="$PROJECT_DIR$/Human Anonimation Pipeline/Results/3_video_test.avi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human_Occlusion_Pipeline/runMe_MaskRCNN_Image.py" beforeDir="false" afterPath="$PROJECT_DIR$/Human Anonimation Pipeline/runMe_MaskRCNN_Image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human_Occlusion_Pipeline/runMe_MaskRCNN_Video.py" beforeDir="false" afterPath="$PROJECT_DIR$/Human Anonimation Pipeline/runMe_MaskRCNN_Video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human_Occlusion_Pipeline/video_test.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Human Anonimation Pipeline/video_test.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonitorMe/DriverID.py" beforeDir="false" afterPath="$PROJECT_DIR$/User Monitoring System/Aux_Files/DriverID.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonitorMe/EyeGazing.py" beforeDir="false" afterPath="$PROJECT_DIR$/User Monitoring System/Aux_Files/EyeGazing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonitorMe/EyeMonitoring.py" beforeDir="false" afterPath="$PROJECT_DIR$/User Monitoring System/Aux_Files/EyeMonitoring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonitorMe/HeadPoseEstimation.py" beforeDir="false" afterPath="$PROJECT_DIR$/User Monitoring System/Aux_Files/HeadPoseEstimation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonitorMe/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/User Monitoring System/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonitorMe/Others/DrowsyWarning.wav" beforeDir="false" afterPath="$PROJECT_DIR$/User Monitoring System/Others/DrowsyWarning.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonitorMe/Others/WelcomeToCar.wav" beforeDir="false" afterPath="$PROJECT_DIR$/User Monitoring System/Others/WelcomeToCar.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonitorMe/Others/coco.names.txt" beforeDir="false" afterPath="$PROJECT_DIR$/User Monitoring System/Others/coco.names.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonitorMe/Others/labels.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonitorMe/Others/shape_predictor_68_face_landmarks.dat" beforeDir="false" afterPath="$PROJECT_DIR$/User Monitoring System/Others/shape_predictor_68_face_landmarks.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonitorMe/Others/trainner.yml" beforeDir="false" afterPath="$PROJECT_DIR$/User Monitoring System/Others/trainner.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonitorMe/Others/yolov3-tiny.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/User Monitoring System/Others/yolov3-tiny.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonitorMe/Others/yolov3-tiny.weights" beforeDir="false" afterPath="$PROJECT_DIR$/User Monitoring System/Others/yolov3-tiny.weights" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonitorMe/Others/yolov3.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/User Monitoring System/Others/yolov3.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonitorMe/auxiliar.py" beforeDir="false" afterPath="$PROJECT_DIR$/User Monitoring System/Aux_Files/auxiliar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonitorMe/objectDetection.py" beforeDir="false" afterPath="$PROJECT_DIR$/User Monitoring System/objectDetection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonitorMe/trainFaces4ID.py" beforeDir="false" afterPath="$PROJECT_DIR$/User Monitoring System/Aux_Files/trainFaces4ID.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Face moving on camera/Aux_files/Dockerfile" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="21h2IzmVWkWIxgjEQq15wbUPl0i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Human_Occlusion_Pipeline" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Human_Occlusion_Pipeline" />
+      <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Others\Test - Mask R-CNN" />
+      <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Others\Mask R-CNN\Mask_RCNN" />
+      <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Others\Mask R-CNN" />
+      <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Others\LSTM - Tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Others" />
+      <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\AI PersonalTrainer\Functions" />
+      <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\MonitorMe\Aux_Files" />
+      <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\FaceMovingOnCamera\Aux_files" />
+      <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Human_Occlusion_Pipeline\Aux_Files" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Main_PersonalTrainer">
+    <configuration name="EyeGazing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CV_Projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MonitorMe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\MonitorMe\Aux_Files\EyeGazing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CV_Projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MonitorMe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MonitorMe/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main_PersonalTrainer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CV_Projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AI PersonalTrainer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AI PersonalTrainer/Main_PersonalTrainer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="objectDetection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CV_Projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MonitorMe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MonitorMe/objectDetection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="trainFaces4ID" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CV_Projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MonitorMe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\MonitorMe\Aux_Files\trainFaces4ID.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Main_PersonalTrainer" />
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.objectDetection" />
+        <item itemvalue="Python.trainFaces4ID" />
+        <item itemvalue="Python.EyeGazing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c33c06da-8ebe-42ed-b9ba-bfba34fcc063" name="Default Changelist" comment="" />
+      <created>1638378922331</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638378922331</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
