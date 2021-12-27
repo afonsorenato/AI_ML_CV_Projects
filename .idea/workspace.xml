@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c33c06da-8ebe-42ed-b9ba-bfba34fcc063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Automotive/Parking Lot/CarParkPos" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automotive/Parking Lot/Others/carParkingImg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automotive/Parking Lot/Others/parking_img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automotive/Parking Lot/Others/parking_video.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automotive/Parking Lot/Parking Lot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automotive/Parking Lot/main_ParkingLot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User &amp; Consumer/Human Anonimation Pipeline/Results/5_video_test.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User &amp; Consumer/Human Anonimation Pipeline/Results/6_video_test.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User &amp; Consumer/Human Anonimation Pipeline/Results/7_human.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automotive.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/AI Volume Control/main_VolumeControl.py" beforeDir="false" afterPath="$PROJECT_DIR$/User &amp; Consumer/AI Volume Control/main_VolumeControl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/AI Volume Control/main_VolumeControlUpgraded.py" beforeDir="false" afterPath="$PROJECT_DIR$/User &amp; Consumer/AI Volume Control/main_VolumeControlUpgraded.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Face moving on camera/Aux_files/methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/User &amp; Consumer/Face moving on camera/Aux_files/methods.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Face moving on camera/Main_faceInSystemDlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/User &amp; Consumer/Face moving on camera/Main_faceInSystemDlib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Face moving on camera/Main_liveFaceplot.py" beforeDir="false" afterPath="$PROJECT_DIR$/User &amp; Consumer/Face moving on camera/Main_liveFaceplot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
