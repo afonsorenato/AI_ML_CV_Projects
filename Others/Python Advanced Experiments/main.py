@@ -1,5 +1,6 @@
 from timeit import default_timer as timer
 from collections import Counter
+import logging
 
 def getList():
 
@@ -87,13 +88,20 @@ def getString():
     print(my_string)
 
 
-def getCollections():
-
-
 
 #getList()
 #getDictionary()
 #getSets()
 #getString()
 
-getCollections()
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s -  %(name)s - %(levelname)s - %(message)s',
+                                                datefmt='%m/%d/%Y %H:%M:%S')
+
+logger = logging.getLogger(__name__)
+logger.info("Hello from helper")
+
+logging.debug("Debug message")
+logging.info("Info message")
+logging.warning("Warning message")
+logging.error("Error message")
+logging.critical("Critical message")
