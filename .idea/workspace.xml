@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c33c06da-8ebe-42ed-b9ba-bfba34fcc063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Others/Python Advanced Experiments/dataFormats.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Others/Python Advanced Experiments/decorators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Others/Python Advanced Experiments/example.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Others/Python Advanced Experiments/exceptMe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Others/Python Advanced Experiments/multiprocessing_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Others/Python Advanced Experiments/tutorial_threads.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Python Advanced Experiments/function_args_tutorial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Python Advanced Experiments/queues_tutorial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Others/Python Advanced Experiments/iterTypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Python Advanced Experiments/iterTypes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Others/Python Advanced Experiments/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Python Advanced Experiments/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Python Advanced Experiments/tutorial_threads.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Python Advanced Experiments/tutorial_threads.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +78,8 @@
       <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Human_Occlusion_Pipeline\Aux_Files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tutorial_threads">
-    <configuration name="dataFormats" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.function_args_tutorial">
+    <configuration name="function_args_tutorial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -96,49 +91,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/Python Advanced Experiments/dataFormats.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/Python Advanced Experiments/function_args_tutorial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="decorators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Renato\AppData\Local\Programs\Python\Python36\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Others/Python Advanced Experiments" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/Python Advanced Experiments/decorators.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Users\Renato\AppData\Local\Programs\Python\Python36\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Others/Python Advanced Experiments" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/Python Advanced Experiments/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
@@ -157,6 +113,48 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <option name="SCRIPT_NAME" value="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Others\Python Advanced Experiments\multiprocessing_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="queues_tutorial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Renato\AppData\Local\Programs\Python\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Others/Python Advanced Experiments" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/Python Advanced Experiments/queues_tutorial.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tutorial_threads (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Renato\AppData\Local\Programs\Python\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Others/Python Advanced Experiments" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/Python Advanced Experiments/tutorial_threads.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,19 +185,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.dataFormats" />
-      <item itemvalue="Python.decorators" />
       <item itemvalue="Python.multiprocessing_test" />
       <item itemvalue="Python.tutorial_threads" />
+      <item itemvalue="Python.tutorial_threads (1)" />
+      <item itemvalue="Python.queues_tutorial" />
+      <item itemvalue="Python.function_args_tutorial" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.function_args_tutorial" />
+        <item itemvalue="Python.queues_tutorial" />
+        <item itemvalue="Python.tutorial_threads (1)" />
         <item itemvalue="Python.tutorial_threads" />
         <item itemvalue="Python.multiprocessing_test" />
-        <item itemvalue="Python.decorators" />
-        <item itemvalue="Python.dataFormats" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>

@@ -1,25 +1,27 @@
-from threading import Thread
+from threading import Thread, Lock
+from queue import Queue
 import time
 
 database_value = 0
 
 
-def increase():
+def increase(lock):
     global database_value
 
-    local_copy = database_value
-
-    # Processing
-    local_copy += 1
-    time.sleep(0.1)
-
-    database_value = local_copy
+    with lock:
+        lock.acquire()
+        local_copy = database_value
+        local_copy += 1
+        time.sleep(0.1)
+        database_value = local_copy
 
 if __name__ == "__main__":
+
+    lock = Lock()
     print("start value", database_value)
 
-    thread1 = Thread(target=increase)
-    thread2 = Thread(target=increase)
+    thread1 = Thread(target=increase, args=(lock,))
+    thread2 = Thread(target=increase, args=(lock,))
 
     thread1.start()
     thread2.start()
