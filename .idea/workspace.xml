@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c33c06da-8ebe-42ed-b9ba-bfba34fcc063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Others/Python Advanced Experiments/function_args_tutorial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Others/Python Advanced Experiments/queues_tutorial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User &amp; Consumer/House Intruder/IntruderSnapShot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User &amp; Consumer/House Intruder/Intruder_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User &amp; Consumer/House Intruder/Intruder_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User &amp; Consumer/House Intruder/Weights/coco.names" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User &amp; Consumer/House Intruder/Weights/yolov3-tiny.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User &amp; Consumer/House Intruder/Weights/yolov3-tiny.weights" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User &amp; Consumer/House Intruder/Weights/yolov3.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User &amp; Consumer/House Intruder/person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User &amp; Consumer/House Intruder/readMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User &amp; Consumer/House Intruder/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Others/Python Advanced Experiments/tutorial_threads.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Python Advanced Experiments/tutorial_threads.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +54,8 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Automotive/Parking Lot/Others" />
-    <property name="settings.editor.selected.configurable" value="pyconsole" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/User &amp; Consumer/House Intruder/Weights" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -64,11 +72,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\User &amp; Consumer\House Intruder\Weights" />
       <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Automotive\Parking Lot\Others" />
       <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Human_Occlusion_Pipeline" />
       <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Others\Test - Mask R-CNN" />
       <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Others\Mask R-CNN\Mask_RCNN" />
-      <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Others\Mask R-CNN" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Others" />
@@ -78,7 +86,49 @@
       <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Human_Occlusion_Pipeline\Aux_Files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.function_args_tutorial">
+  <component name="RunManager" selected="Python.Intruder_main">
+    <configuration name="Intruder_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Renato\AppData\Local\Programs\Python\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/User &amp; Consumer/House Intruder" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/User &amp; Consumer/House Intruder/Intruder_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Intruder_module" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Renato\AppData\Local\Programs\Python\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/User &amp; Consumer/House Intruder" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/User &amp; Consumer/House Intruder/Intruder_module.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="function_args_tutorial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,27 +142,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/Python Advanced Experiments/function_args_tutorial.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="multiprocessing_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Renato\AppData\Local\Programs\Python\Python36\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Others/Python Advanced Experiments" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Others\Python Advanced Experiments\multiprocessing_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,41 +192,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tutorial_threads" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Renato\AppData\Local\Programs\Python\Python36\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Others/Python Advanced Experiments" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Others\Python Advanced Experiments\tutorial_threads.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.multiprocessing_test" />
-      <item itemvalue="Python.tutorial_threads" />
       <item itemvalue="Python.tutorial_threads (1)" />
       <item itemvalue="Python.queues_tutorial" />
       <item itemvalue="Python.function_args_tutorial" />
+      <item itemvalue="Python.Intruder_main" />
+      <item itemvalue="Python.Intruder_module" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Intruder_main" />
+        <item itemvalue="Python.Intruder_module" />
         <item itemvalue="Python.function_args_tutorial" />
         <item itemvalue="Python.queues_tutorial" />
         <item itemvalue="Python.tutorial_threads (1)" />
-        <item itemvalue="Python.tutorial_threads" />
-        <item itemvalue="Python.multiprocessing_test" />
       </list>
     </recent_temporary>
   </component>
