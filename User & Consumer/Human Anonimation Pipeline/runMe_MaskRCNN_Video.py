@@ -6,7 +6,7 @@ import os
 
 # User can choose between using a video or a live stream
 list = []
-video_flag = 1
+video_flag = 0
 video_name = "video_test.mp4"
 
 # Gets all classes names
