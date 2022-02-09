@@ -21,8 +21,20 @@ One hot encoding: representing categorical variables as binary vectors
 
 Discretisation methods:
 - Decision tree discretiser
-
-
-
 """
 
+
+class MeanImputer:
+
+    def __init__(self, variables):
+        self.variables = variables
+
+    def fit(self, x, y=None):
+        self.imputer_dict_ = X[self.variables].mean().to_dict()
+
+        return self
+
+
+my_imputer = MeanImputer(variables=['age', 'fare'])
+
+print(my_imputer.variables)
