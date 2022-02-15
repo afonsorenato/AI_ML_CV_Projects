@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c33c06da-8ebe-42ed-b9ba-bfba34fcc063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Automotive/Autonomous_Driving/RoadSegmentation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Others/Deployment Course/Lecture4/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Others/Deployment Course/Lecture4/my_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Others/Deployment Course/Lecture4/test_my_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Others/Deployment Course/Lecture4/test_my_module_again.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Others/Deployment Course/Lecture3/OpenSource.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Deployment Course/Lecture3/OpenSource.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Deployment Course/Lecture4/test_my_module_again.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Deployment Course/Lecture4/test_my_module_again.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
