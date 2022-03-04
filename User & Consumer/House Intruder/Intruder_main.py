@@ -1,8 +1,8 @@
 import cv2, time, os
-from Intruder_module import getPrediction, enterPassword, sendEmail, clearImages
+from Intruder_module import getPrediction, enterPassword, sendEmail
 
-# cap = cv2.VideoCapture(0)
-cap = cv2.VideoCapture("C:/Users/Renato/OneDrive/Ambiente de Trabalho/intruder_video.mp4")
+cap = cv2.VideoCapture(0)
+#cap = cv2.VideoCapture("C:/Users/Renato/OneDrive/Ambiente de Trabalho/intruder_video.mp4")
 directory = "../House Intruder"
 
 # Gets first frame
@@ -21,11 +21,11 @@ while ok:
         break
 
     # Human detection
-    # prediction, human_detected = getPrediction(frame)
+    prediction, human_detected = getPrediction(frame)
 
-    # if human_detected and email_sent is False:
-    #    sendEmail(password, frame)
-    #    email_sent = True
+    if human_detected and email_sent is False:
+        sendEmail(password, frame)
+        email_sent = True
 
     # Plot the obtained image
     cv2.namedWindow("Live stream", cv2.WINDOW_NORMAL)
@@ -38,4 +38,4 @@ while ok:
         email_sent = False
         init = time.time()
 
-cleanImages(directory)
+#cleanImages(directory)
