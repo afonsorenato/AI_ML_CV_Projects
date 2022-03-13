@@ -22,7 +22,10 @@ while ok:
 
     # Human detection
     prediction, human_detected = getPrediction(frame)
+    print("Boolean human:" + str(human_detected))
 
+    # Send Mail module
+    # Working ok
     if human_detected and email_sent is False:
         sendEmail(password, frame)
         email_sent = True

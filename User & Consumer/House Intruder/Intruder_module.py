@@ -25,14 +25,11 @@ def getClasses(path):
     return classes
 
 
-
 def get_output_layers(net):
     layer_names = net.getLayerNames()
-
     output_layers = [layer_names[i[0] - 1] for i in net.getUnconnectedOutLayers()]
 
     return output_layers
-
 
 
 @getClasses
@@ -41,7 +38,6 @@ def draw_bounding_box(img, class_id, confidence, x, y, x_plus_w, y_plus_h):
     cv2.rectangle(img, (x, y), (x_plus_w, y_plus_h), (0, 0, 255), 2)
     cv2.putText(img, label, (x - 10, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
     return img
-
 
 
 def getPrediction(image):
@@ -69,15 +65,12 @@ def getPrediction(image):
     return out_image, human_detected
 
 
-
 def enterPassword():
     password = "test_python"
     return password
 
 
-
 def sendEmail(password, frame):
-
     # Saves image of intruder to be sent
     saved_image = cv2.imwrite("IntruderSnapShot.jpg", frame)
 
