@@ -5,74 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c33c06da-8ebe-42ed-b9ba-bfba34fcc063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Others/RabbitMQ/receive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Others/RabbitMQ/send.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/RabbitMQ/worker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133350.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133354.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133400.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133406.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133412.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133418.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133423.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133431.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133435.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133439.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133448.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133452.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133459.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133505.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133509.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133515.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133540.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133545.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133548.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133602.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133605.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133613.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133625.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133645.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133649.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133651.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133705.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133710.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133718.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133721.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/train/IMG_20220219_133726.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133350.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133354.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133400.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133406.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133412.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133418.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133423.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133431.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133435.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133439.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133448.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133452.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133459.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133505.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133509.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133515.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133521.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133540.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133545.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133548.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133558.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133602.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133605.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133613.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133625.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133645.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133649.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133651.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133705.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133710.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133718.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133721.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Dataset/val/IMG_20220219_133726.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/RabbitMQ/work_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/RabbitMQ/new_task.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
