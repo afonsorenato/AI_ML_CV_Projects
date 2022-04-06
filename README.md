@@ -6,6 +6,6 @@ This Git is divided in three areas of interest like Automotive, User & Consumer 
 
 Please use the package manager [pip] to install:
 
-'''bash
+```bash
 pip install requirements.txt
-'''
+```
