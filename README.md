@@ -1,9 +1,11 @@
 # My projects
 
-This Git is divided in three areas of interest:
-	1) Automotive
-	2) User & Consumer
-	3) Others
-		1) Several modules
-		2) Test and learning sessions on new tools
-		3) Exercices done on courses & certifications
+This Git is divided in three areas of interest like Automotive, User & Consumer and Others. This last one includes several modules, test and learning sessions on new tools and exercices done on courses & certifications.
+
+## Install all needed requirements
+
+Please use the package manager [pip] to install:
+
+'''bash
+pip install requirements.txt
+'''
