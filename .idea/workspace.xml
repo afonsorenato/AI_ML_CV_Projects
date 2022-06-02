@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c33c06da-8ebe-42ed-b9ba-bfba34fcc063" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User &amp; Consumer/Human Anonimation Pipeline/Results/10_video_test.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User &amp; Consumer/OCR/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User &amp; Consumer/OCR/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User &amp; Consumer/OCR/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Ambiente de Trabalho/myrep/myrep" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -77,7 +80,7 @@
       <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Automotive\Driver Monitoring System" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.HeatMap_Threads">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="HeatMap_PoC" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,19 +123,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Intruder_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="grocery_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Renato\AppData\Local\Programs\Python\Python36\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/User &amp; Consumer/House Intruder" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/User &amp; Consumer/House Intruder/Intruder_main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/grocery_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,19 +144,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Renato\AppData\Local\Programs\Python\Python36\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Others/Testing_Detectron" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/User &amp; Consumer/OCR" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/Testing_Detectron/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/User &amp; Consumer/OCR/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,19 +165,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="send" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="runMe_MaskRCNN_Video" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Renato\AppData\Local\Programs\Python\Python36\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Others/RabbitMQ" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/User &amp; Consumer/Human Anonimation Pipeline" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/RabbitMQ/send.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/User &amp; Consumer/Human Anonimation Pipeline/runMe_MaskRCNN_Video.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,19 +187,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Intruder_main" />
-      <item itemvalue="Python.send" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.HeatMap_PoC" />
       <item itemvalue="Python.HeatMap_Threads" />
+      <item itemvalue="Python.runMe_MaskRCNN_Video" />
+      <item itemvalue="Python.grocery_main" />
+      <item itemvalue="Python.main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.grocery_main" />
+        <item itemvalue="Python.runMe_MaskRCNN_Video" />
         <item itemvalue="Python.HeatMap_Threads" />
         <item itemvalue="Python.HeatMap_PoC" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.send" />
-        <item itemvalue="Python.Intruder_main" />
       </list>
     </recent_temporary>
   </component>
