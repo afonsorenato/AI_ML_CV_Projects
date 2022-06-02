@@ -4,7 +4,231 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c33c06da-8ebe-42ed-b9ba-bfba34fcc063" name="Default Changelist" comment="" />
+    <list default="true" id="c33c06da-8ebe-42ed-b9ba-bfba34fcc063" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/.circleci/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/.github/ISSUE_TEMPLATE/any-other-question-or-issue.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/.github/ISSUE_TEMPLATE/bug-report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/.github/ISSUE_TEMPLATE/feature_request.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/.github/ISSUE_TEMPLATE/training-issue---no-detections---nan-avg-loss---low-accuracy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/.github/workflows/ccpp.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/.github/workflows/on_pr.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/.github/workflows/rebase.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/3rdparty/pthreads/include/pthread.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/3rdparty/pthreads/include/sched.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/3rdparty/pthreads/include/semaphore.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/3rdparty/stb/include/stb_image.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/3rdparty/stb/include/stb_image_write.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/DarknetConfig.cmake.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/build.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/cmake/Modules/FindCUDNN.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/cmake/Modules/FindPThreads4W.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/cmake/Modules/FindStb.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/darknet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/darknet_images.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/darknet_video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/image_yolov3.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/image_yolov4.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/include/darknet.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/include/yolo_v2_class.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/json_mjpeg_streams.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/net_cam_v3.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/net_cam_v4.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/results/tmp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/deploy-cuda.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/deploy-cuda.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/dice_label.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/download_weights.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/gen_anchors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/gen_tactic.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/get_coco2017.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/get_coco_dataset.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/get_imagenet_train.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/get_openimages_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/imagenet_label.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/install_OpenCV4.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/kitti2yolo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/kmeansiou.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/log_parser/log_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/log_parser/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/log_parser/run_log_parser_windows.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/log_parser/test.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/log_parser/test_new.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/log_parser/test_new.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/requested_cuda_version.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/reval_voc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/reval_voc_py3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/setup.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/setup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/testdev2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/voc_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/voc_eval_py3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/voc_label.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/voc_label_difficult.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/windows/otb_get_labels.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/windows/win_cifar.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/windows/win_get_imagenet_train_48hours.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/windows/win_get_imagenet_valid.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/windows/win_get_otb_datasets.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/windows/windows_imagenet_label.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/scripts/windows/windows_imagenet_train.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/activation_kernels.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/activation_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/activation_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/activations.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/activations.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/art.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/avgpool_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/avgpool_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/avgpool_layer_kernels.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/batchnorm_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/batchnorm_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/blas.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/blas.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/blas_kernels.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/box.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/box.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/captcha.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/cifar.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/classifier.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/classifier.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/coco.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/col2im.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/col2im.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/col2im_kernels.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/compare.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/connected_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/connected_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/conv_lstm_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/conv_lstm_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/convolutional_kernels.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/convolutional_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/convolutional_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/cost_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/cost_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/cpu_gemm.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/crnn_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/crnn_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/crop_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/crop_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/crop_layer_kernels.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/csharp/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/csharp/YoloCSharpWrapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/dark_cuda.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/dark_cuda.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/darknet.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/darkunistd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/data.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/data.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/deconvolutional_kernels.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/deconvolutional_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/deconvolutional_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/demo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/demo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/detection_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/detection_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/detector.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/dice.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/dropout_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/dropout_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/dropout_layer_kernels.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/gaussian_yolo_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/gaussian_yolo_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/gemm.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/gemm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/getopt.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/getopt.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/gettimeofday.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/gettimeofday.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/go.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/gru_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/gru_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/http_stream.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/http_stream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/httplib.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/im2col.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/im2col.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/im2col_kernels.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/image.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/image.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/image_opencv.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/image_opencv.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/list.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/list.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/local_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/local_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/lstm_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/lstm_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/matrix.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/matrix.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/maxpool_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/maxpool_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/maxpool_layer_kernels.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/network.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/network.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/network_kernels.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/nightmare.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/normalization_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/normalization_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/option_list.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/option_list.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/parser.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/parser.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/region_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/region_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/reorg_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/reorg_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/reorg_old_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/reorg_old_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/representation_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/representation_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/rnn.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/rnn_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/rnn_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/rnn_vid.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/route_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/route_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/sam_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/sam_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/scale_channels_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/scale_channels_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/shortcut_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/shortcut_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/softmax_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/softmax_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/super.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/swag.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/tag.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/tree.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/tree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/upsample_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/upsample_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/utils.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/version.h.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/voxel.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/writing.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/yolo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/yolo_console_dll.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/yolo_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/yolo_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/src/yolo_v2_class.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/vcpkg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/video_yolov3.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/darknet/video_yolov4.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Others/Testing_DarkNET/test_yolo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,28 +298,7 @@
       <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Automotive\Driver Monitoring System" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.send">
-    <configuration name="HeatMap_PoC (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Renato\AppData\Local\Programs\Python\Python36\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/User &amp; Consumer/Movement Heat Map" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/User &amp; Consumer/Movement Heat Map/HeatMap_PoC.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main">
     <configuration name="HeatMap_Threads" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,6 +362,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Renato\AppData\Local\Programs\Python\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Others/Testing_Detectron" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/Testing_Detectron/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="send" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,17 +407,17 @@
     <list>
       <item itemvalue="Python.HeatMap_Threads" />
       <item itemvalue="Python.Intruder_main" />
-      <item itemvalue="Python.HeatMap_PoC (1)" />
       <item itemvalue="Python.Movment_Basic" />
       <item itemvalue="Python.send" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.send" />
         <item itemvalue="Python.Intruder_main" />
         <item itemvalue="Python.Movment_Basic" />
         <item itemvalue="Python.HeatMap_Threads" />
-        <item itemvalue="Python.HeatMap_PoC (1)" />
       </list>
     </recent_temporary>
   </component>
