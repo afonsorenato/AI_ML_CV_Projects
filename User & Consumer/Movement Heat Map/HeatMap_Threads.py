@@ -22,7 +22,7 @@ def plotHeatMapUp():
 
 
 """
-Gets the current frame and outputs the heat colored map
+Gets the current frame and outputs the heat colored map 
 Return gray scaled image 
 """
 def plotHeatMapDown():
