@@ -11,6 +11,8 @@ int main()
 {
     introduction();
 
-    cout << "Hello there\n";
+    cout << "Hello there \n\n";
+    cout << "\n";
+    
     return 0;
 }
