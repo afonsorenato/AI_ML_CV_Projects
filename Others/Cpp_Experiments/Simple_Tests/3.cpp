@@ -3,7 +3,7 @@
 
 int main(){
 
-    int age;
+    int age = 3;
     int number;
     std::string full_name;
 
