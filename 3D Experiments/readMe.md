@@ -1,6 +1,6 @@
-## 3D Experiments - Renato Afonso - 2022
+# 3D Experiments - Renato Afonso - 2022
 
-# Goal:
+## Goal:
 This repo consists on some specific experiments related to 2D, 3D based use-cases, based on previous experiments and some new ones.
 
 1) Single Camera calibration
