@@ -5,7 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c33c06da-8ebe-42ed-b9ba-bfba34fcc063" name="Default Changelist" comment="Created OCR project">
-      <change afterPath="$PROJECT_DIR$/3D Experiments/main.py.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3D Experiments/main.py.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/Identify_and_calculate_area_of_an_Object.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/MANIFEST.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/balloon/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/balloon/balloon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/balloon/inspect_balloon_data.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/balloon/inspect_balloon_model.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/coco/coco.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/coco/inspect_data.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/coco/inspect_model.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/coco/inspect_weights.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/demo.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/nucleus/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/nucleus/inspect_nucleus_data.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/nucleus/inspect_nucleus_model.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/nucleus/nucleus.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/shapes/shapes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/shapes/train_shapes.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +64,8 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/3D Experiments" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
@@ -76,7 +98,7 @@
       <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Automotive\Driver Monitoring System" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.runMe_MaskRCNN_Video">
+  <component name="RunManager" selected="Python.HeatMap_PoC">
     <configuration name="HeatMap_PoC" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -191,9 +213,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.HeatMap_PoC" />
         <item itemvalue="Python.runMe_MaskRCNN_Video" />
         <item itemvalue="Python.HeatMap_Threads" />
-        <item itemvalue="Python.HeatMap_PoC" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.grocery_main" />
       </list>
