@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdlib.h>
 
 void print(int my_var){
     std::cout << my_var << std::endl;
@@ -12,6 +13,8 @@ int main(){
 
     int lion_count{};
     print(lion_count);
+    print(sizeof(lion_count));
+
     int dog_count {10};
     print(dog_count);
     int cat_count {15};
