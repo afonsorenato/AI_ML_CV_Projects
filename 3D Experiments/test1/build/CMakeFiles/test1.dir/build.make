@@ -68,70 +68,70 @@ CMAKE_SOURCE_DIR = "C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Ex
 CMAKE_BINARY_DIR = "C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1/build"
 
 # Include any dependencies generated for this target.
-include CMakeFiles/test1.dir/depend.make
+include CMakeFiles/TEST1.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/test1.dir/progress.make
+include CMakeFiles/TEST1.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/test1.dir/flags.make
+include CMakeFiles/TEST1.dir/flags.make
 
-CMakeFiles/test1.dir/main.cpp.obj: CMakeFiles/test1.dir/flags.make
-CMakeFiles/test1.dir/main.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
-CMakeFiles/test1.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test1.dir/main.cpp.obj"
-	C:/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test1.dir/main.cpp.obj -c "C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1/main.cpp"
+CMakeFiles/TEST1.dir/main.cpp.obj: CMakeFiles/TEST1.dir/flags.make
+CMakeFiles/TEST1.dir/main.cpp.obj: CMakeFiles/TEST1.dir/includes_CXX.rsp
+CMakeFiles/TEST1.dir/main.cpp.obj: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TEST1.dir/main.cpp.obj"
+	C:/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TEST1.dir/main.cpp.obj -c "C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1/main.cpp"
 
-CMakeFiles/test1.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test1.dir/main.cpp.i"
-	C:/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1/main.cpp" > CMakeFiles/test1.dir/main.cpp.i
+CMakeFiles/TEST1.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TEST1.dir/main.cpp.i"
+	C:/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1/main.cpp" > CMakeFiles/TEST1.dir/main.cpp.i
 
-CMakeFiles/test1.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test1.dir/main.cpp.s"
-	C:/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1/main.cpp" -o CMakeFiles/test1.dir/main.cpp.s
+CMakeFiles/TEST1.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TEST1.dir/main.cpp.s"
+	C:/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1/main.cpp" -o CMakeFiles/TEST1.dir/main.cpp.s
 
-# Object files for target test1
-test1_OBJECTS = \
-"CMakeFiles/test1.dir/main.cpp.obj"
+# Object files for target TEST1
+TEST1_OBJECTS = \
+"CMakeFiles/TEST1.dir/main.cpp.obj"
 
-# External object files for target test1
-test1_EXTERNAL_OBJECTS =
+# External object files for target TEST1
+TEST1_EXTERNAL_OBJECTS =
 
-test1.exe: CMakeFiles/test1.dir/main.cpp.obj
-test1.exe: CMakeFiles/test1.dir/build.make
-test1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
-test1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
-test1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
-test1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
-test1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
-test1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
-test1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
-test1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
-test1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
-test1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
-test1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
-test1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
-test1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
-test1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
-test1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
-test1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
-test1.exe: CMakeFiles/test1.dir/linklibs.rsp
-test1.exe: CMakeFiles/test1.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test1.exe"
-	C:/Users/Renato/AppData/Local/Programs/Python/Python36/Lib/site-packages/cmake/data/bin/cmake.exe -E rm -f CMakeFiles/test1.dir/objects.a
-	C:/MinGW/bin/ar.exe cr CMakeFiles/test1.dir/objects.a @CMakeFiles/test1.dir/objects1.rsp
-	C:/MinGW/bin/g++.exe -g -Wl,--whole-archive CMakeFiles/test1.dir/objects.a -Wl,--no-whole-archive -o test1.exe -Wl,--out-implib,libtest1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/test1.dir/linklibs.rsp
+TEST1.exe: CMakeFiles/TEST1.dir/main.cpp.obj
+TEST1.exe: CMakeFiles/TEST1.dir/build.make
+TEST1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
+TEST1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
+TEST1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
+TEST1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
+TEST1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
+TEST1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
+TEST1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
+TEST1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
+TEST1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
+TEST1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
+TEST1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
+TEST1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
+TEST1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
+TEST1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
+TEST1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
+TEST1.exe: C:/opencv/build/x64/vc15/lib/opencv_world455d.lib
+TEST1.exe: CMakeFiles/TEST1.dir/linklibs.rsp
+TEST1.exe: CMakeFiles/TEST1.dir/objects1.rsp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TEST1.exe"
+	C:/Users/Renato/AppData/Local/Programs/Python/Python36/Lib/site-packages/cmake/data/bin/cmake.exe -E rm -f CMakeFiles/TEST1.dir/objects.a
+	C:/MinGW/bin/ar.exe cr CMakeFiles/TEST1.dir/objects.a @CMakeFiles/TEST1.dir/objects1.rsp
+	C:/MinGW/bin/g++.exe -g -Wl,--whole-archive CMakeFiles/TEST1.dir/objects.a -Wl,--no-whole-archive -o TEST1.exe -Wl,--out-implib,libTEST1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/TEST1.dir/linklibs.rsp
 
 # Rule to build all files generated by this target.
-CMakeFiles/test1.dir/build: test1.exe
+CMakeFiles/TEST1.dir/build: TEST1.exe
 
-.PHONY : CMakeFiles/test1.dir/build
+.PHONY : CMakeFiles/TEST1.dir/build
 
-CMakeFiles/test1.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/test1.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/test1.dir/clean
+CMakeFiles/TEST1.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/TEST1.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/TEST1.dir/clean
 
-CMakeFiles/test1.dir/depend:
+CMakeFiles/TEST1.dir/depend:
 	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1" "C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1" "C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1/build" "C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1/build" "C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1/build/CMakeFiles/test1.dir/DependInfo.cmake" --color=$(COLOR)
-.PHONY : CMakeFiles/test1.dir/depend
+.PHONY : CMakeFiles/TEST1.dir/depend
 

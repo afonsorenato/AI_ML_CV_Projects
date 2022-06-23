@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "test1.exe"
+			"path" : "TEST1.exe"
 		},
 		{
-			"path" : "test1.pdb"
+			"path" : "TEST1.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -70,7 +70,7 @@
 			]
 		}
 	],
-	"id" : "test1::@6890427a1f51a3e7e1df",
+	"id" : "TEST1::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -170,8 +170,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "test1",
-	"nameOnDisk" : "test1.exe",
+	"name" : "TEST1",
+	"nameOnDisk" : "TEST1.exe",
 	"paths" : 
 	{
 		"build" : ".",

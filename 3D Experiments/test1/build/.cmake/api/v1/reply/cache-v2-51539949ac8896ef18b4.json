@@ -911,7 +911,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "test1"
+			"value" : "TEST1"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1003,7 +1003,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw32/bin/windres.exe"
+			"value" : "C:/MinGW/bin/windres.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -1363,7 +1363,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw32/bin/gcov.exe"
+			"value" : "C:/MinGW/bin/gcov.exe"
 		},
 		{
 			"name" : "COVERAGE_EXTRA_FLAGS",
@@ -1772,6 +1772,30 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "SVNCOMMAND-NOTFOUND"
+		},
+		{
+			"name" : "TEST1_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1/build"
+		},
+		{
+			"name" : "TEST1_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1"
 		},
 		{
 			"name" : "test1_BINARY_DIR",

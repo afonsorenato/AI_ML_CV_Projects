@@ -95,5 +95,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ContinuousBuild.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousTest.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousCoverage.dir/DependInfo.cmake"
-  "CMakeFiles/test1.dir/DependInfo.cmake"
+  "CMakeFiles/TEST1.dir/DependInfo.cmake"
   )

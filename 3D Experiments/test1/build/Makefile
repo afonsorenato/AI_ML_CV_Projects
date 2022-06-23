@@ -527,17 +527,17 @@ ContinuousCoverage/fast:
 .PHONY : ContinuousCoverage/fast
 
 #=============================================================================
-# Target rules for targets named test1
+# Target rules for targets named TEST1
 
 # Build rule for target.
-test1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test1
-.PHONY : test1
+TEST1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TEST1
+.PHONY : TEST1
 
 # fast build rule for target.
-test1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/build
-.PHONY : test1/fast
+TEST1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TEST1.dir/build.make CMakeFiles/TEST1.dir/build
+.PHONY : TEST1/fast
 
 main.obj: main.cpp.obj
 
@@ -545,7 +545,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TEST1.dir/build.make CMakeFiles/TEST1.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -554,7 +554,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TEST1.dir/build.make CMakeFiles/TEST1.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -563,7 +563,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TEST1.dir/build.make CMakeFiles/TEST1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -605,7 +605,7 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
-	@echo "... test1"
+	@echo "... TEST1"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"

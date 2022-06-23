@@ -1,7 +1,7 @@
 [
 {
   "directory": "C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1/build",
-  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/test1.dir/includes_CXX.rsp -g -o CMakeFiles/test1.dir/main.cpp.obj -c \"C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1/main.cpp\"",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/TEST1.dir/includes_CXX.rsp -g -o CMakeFiles/TEST1.dir/main.cpp.obj -c \"C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1/main.cpp\"",
   "file": "C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/test1/main.cpp"
 }
 ]

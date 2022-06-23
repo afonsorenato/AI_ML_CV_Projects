@@ -78,7 +78,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: C:/mingw32/bin/gcov.exe
+CoverageCommand: C:/MinGW/bin/gcov.exe
 CoverageExtraFlags: -l
 
 # Cluster commands
