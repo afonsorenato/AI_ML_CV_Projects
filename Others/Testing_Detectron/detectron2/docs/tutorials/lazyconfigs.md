@@ -18,13 +18,13 @@ doesn't exist in Yaml:
 
 A Python config file can be loaded like this:
 ```python
-# config.py:
+# cam_config.py:
 a = dict(x=1, y=2, z=dict(xx=1))
 b = dict(x=3, y=4)
 
 # my_code.py:
 from detectron2.config import LazyConfig
-cfg = LazyConfig.load("path/to/config.py")  # an omegaconf dictionary
+cfg = LazyConfig.load("path/to/cam_config.py")  # an omegaconf dictionary
 assert cfg.a.z.xx == 1
 ```
 

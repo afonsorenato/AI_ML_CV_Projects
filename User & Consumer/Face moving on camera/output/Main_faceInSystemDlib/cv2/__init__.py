@@ -115,7 +115,7 @@ def bootstrap():
         if required:
             raise ImportError('OpenCV loader: missing configuration file: {}. Check OpenCV installation.'.format(fnames))
 
-    load_first_config(['config.py'], True)
+    load_first_config(['cam_config.py'], True)
     load_first_config([
         'config-{}.{}.py'.format(sys.version_info[0], sys.version_info[1]),
         'config-{}.py'.format(sys.version_info[0])
