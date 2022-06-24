@@ -7,6 +7,7 @@ import numpy as np
 path = "C:/Users/Renato/OneDrive/Documentos\GitHub\CV_Projects/3D Experiments/SingleCamera/Chessboard_Samples/"
 
 # Define dimensions of the chessBoard
+# It is the corners, not the squares
 CHECKERBOARD = (8, 5)
 
 # Stops the iteration when hits specific accuracy,
