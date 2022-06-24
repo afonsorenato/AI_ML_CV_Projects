@@ -189,7 +189,7 @@ class {cls_name}:
     lines.append(
         f"""
     def to(self, device: torch.device) -> "{cls_name}":
-        ret = {cls_name}(self.image_size{none_args})
+        status = {cls_name}(self.image_size{none_args})
 """
     )
     for f in fields:
@@ -198,7 +198,7 @@ class {cls_name}:
                 f"""
         t = self._{f.name}
         if t is not None:
-            ret._{f.name} = t.to(device)
+            status._{f.name} = t.to(device)
 """
             )
         else:
@@ -207,7 +207,7 @@ class {cls_name}:
             pass
     lines.append(
         """
-        return ret
+        return status
 """
     )
 
@@ -216,7 +216,7 @@ class {cls_name}:
     lines.append(
         f"""
     def __getitem__(self, item) -> "{cls_name}":
-        ret = {cls_name}(self.image_size{none_args})
+        status = {cls_name}(self.image_size{none_args})
 """
     )
     for f in fields:
@@ -224,12 +224,12 @@ class {cls_name}:
             f"""
         t = self._{f.name}
         if t is not None:
-            ret._{f.name} = t[item]
+            status._{f.name} = t[item]
 """
         )
     lines.append(
         """
-        return ret
+        return status
 """
     )
 
@@ -239,7 +239,7 @@ class {cls_name}:
     lines.append(
         f"""
     def cat(self, instances: List["{cls_name}"]) -> "{cls_name}":
-        ret = {cls_name}(self.image_size{none_args})
+        status = {cls_name}(self.image_size{none_args})
 """
     )
     for f in fields:
@@ -249,21 +249,21 @@ class {cls_name}:
         if t is not None:
             values: List[{f.annotation}] = [x.{f.name} for x in instances]
             if torch.jit.isinstance(t, torch.Tensor):
-                ret._{f.name} = torch.cat(values, dim=0)
+                status._{f.name} = torch.cat(values, dim=0)
             else:
-                ret._{f.name} = t.cat(values)
+                status._{f.name} = t.cat(values)
 """
         )
     lines.append(
         """
-        return ret"""
+        return status"""
     )
 
     # support method `get_fields()`
     lines.append(
         """
     def get_fields(self) -> Dict[str, Tensor]:
-        ret = {}
+        status = {}
     """
     )
     for f in fields:
@@ -277,12 +277,12 @@ class {cls_name}:
             f"""
         t = self._{f.name}
         if t is not None:
-            ret["{f.name}"] = {stmt}
+            status["{f.name}"] = {stmt}
         """
         )
     lines.append(
         """
-        return ret"""
+        return status"""
     )
     return cls_name, os.linesep.join(lines)
 

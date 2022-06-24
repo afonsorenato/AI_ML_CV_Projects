@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c33c06da-8ebe-42ed-b9ba-bfba34fcc063" name="Default Changelist" comment="Created OCR project">
-      <change afterPath="$PROJECT_DIR$/3D Experiments/SingleCamera/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3D Experiments/SingleCamera/cam_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/3D Experiments/SingleCamera/cam_config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3D Experiments/SingleCamera/single_cam_calib.py" beforeDir="false" afterPath="$PROJECT_DIR$/3D Experiments/SingleCamera/single_cam_calib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automotive/Driver Monitoring System/Aux_Files/DriverID.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automotive/Driver Monitoring System/Aux_Files/DriverID.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/detectron2/export/torchscript_patch.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/detectron2/export/torchscript_patch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Face moving on camera/Aux_files/methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/User &amp; Consumer/Face moving on camera/Aux_files/methods.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/Identify_and_calculate_area_of_an_Object.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/MANIFEST.in" beforeDir="false" />
@@ -28,6 +28,7 @@
       <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/nucleus/nucleus.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/shapes/shapes.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/shapes/train_shapes.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/User Monitoring System/Aux_Files/DriverID.py" beforeDir="false" afterPath="$PROJECT_DIR$/User &amp; Consumer/User Monitoring System/Aux_Files/DriverID.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

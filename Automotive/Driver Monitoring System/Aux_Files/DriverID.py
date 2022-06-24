@@ -21,7 +21,7 @@ def getDriverID(frame, labels, recognizer):
 
     #cap = cv2.VideoCapture(0)
     #while True:
-        #ret, frame = cap.read()
+        #status, frame = cap.read()
     gray = cv2.cvtColor(frame, cv2.COLOR_RGB2GRAY)
     faces = face_cascade.detectMultiScale(gray, scaleFactor=1.5,minNeighbors=5)
 
