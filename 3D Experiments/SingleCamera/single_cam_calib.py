@@ -11,10 +11,11 @@ threedpoints = []
 # Vector for 2D points
 twodpoints = []
 
+
 # 3D points real world coordinates
 objectp3d = np.zeros((1, CHECKERBOARD[0] * CHECKERBOARD[1], 3), np.float32)
 
-objectp3d[0, :, :2] = np.mgrid[0:CHECKERBOARD[0], 0:CHECKERBOARD[1]].t.RESHAPE(-1, 2)
+objectp3d[0, :, :2] = np.mgrid[0:CHECKERBOARD[0], 0:CHECKERBOARD[1]].T.reshape(-1, 2)
 prev_img_shape = None
 
 # Extract path of each image stored in a directory
@@ -23,6 +24,7 @@ images = glob.glob(path + "*.jpg")
 for filename in images:
     image = cv2.imread(filename)
     grayColor = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
 
     # Find chessboard corners
     ret, corners = cv2.findChessboardCorners(
@@ -46,10 +48,11 @@ for filename in images:
                                           CHECKERBOARD,
                                           corners2, ret)
 
-    cv2.imshow("Results", image)
+    cv2.imshow("Results", cv2.resize(image, (800, 600)))
     cv2.waitKey(0)
 
 cv2.destroyAllWindows()
+
 
 h, w = image.shape[:2]
 # Perform camera calibration by
