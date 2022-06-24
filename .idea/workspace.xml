@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c33c06da-8ebe-42ed-b9ba-bfba34fcc063" name="Default Changelist" comment="Created OCR project">
-      <change beforePath="$PROJECT_DIR$/3D Experiments/SingleCamera/single_cam_calib.py" beforeDir="false" afterPath="$PROJECT_DIR$/3D Experiments/SingleCamera/single_cam_calib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automotive/Driver Monitoring System/Aux_Files/HeadPoseEstimation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automotive/Driver Monitoring System/Aux_Files/HeadPoseEstimation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automotive/Driver Monitoring System/dmsLib.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automotive/Driver Monitoring System/dmsLib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3D Experiments/SingleCamera/02_distortion_correction.py" beforeDir="false" afterPath="$PROJECT_DIR$/3D Experiments/SingleCamera/02_distortion_correction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Others/Mask_R_CNN/Mask_RCNN/mrcnn/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Mask_R_CNN/Mask_RCNN/mrcnn/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Others/Mask_R_CNN/Mask_RCNN/mrcnn/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Mask_R_CNN/Mask_RCNN/mrcnn/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/.github/workflows/workflow.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/.github/workflows/workflow.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/detectron2/checkpoint/c2_model_loading.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/detectron2/checkpoint/c2_model_loading.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/detectron2/layers/rotated_boxes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/detectron2/layers/rotated_boxes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/detectron2/modeling/matcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/detectron2/modeling/matcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/detectron2/structures/boxes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/detectron2/structures/boxes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/detectron2/structures/rotated_boxes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/detectron2/structures/rotated_boxes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/detectron2/tracking/iou_weighted_hungarian_bbox_iou_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/detectron2/tracking/iou_weighted_hungarian_bbox_iou_tracker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/detectron2/tracking/vanilla_hungarian_bbox_iou_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/detectron2/tracking/vanilla_hungarian_bbox_iou_tracker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/projects/DensePose/densepose/modeling/cse/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/projects/DensePose/densepose/modeling/cse/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/projects/DensePose/densepose/vis/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/projects/DensePose/densepose/vis/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/projects/TensorMask/tensormask/arch.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Testing_Detectron/detectron2/projects/TensorMask/tensormask/arch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/Identify_and_calculate_area_of_an_Object.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/MANIFEST.in" beforeDir="false" />
@@ -42,8 +30,6 @@
       <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/nucleus/nucleus.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/shapes/shapes.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/shapes/train_shapes.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/User Monitoring System/Aux_Files/HeadPoseEstimation.py" beforeDir="false" afterPath="$PROJECT_DIR$/User &amp; Consumer/User Monitoring System/Aux_Files/HeadPoseEstimation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User &amp; Consumer/User Monitoring System/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/User &amp; Consumer/User Monitoring System/Main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +101,7 @@
       <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Automotive\Driver Monitoring System" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.01_single_cam_calib">
+  <component name="RunManager" selected="Python.02_distortion_correction">
     <configuration name="01_single_cam_calib" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CV_Projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,6 +115,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\3D Experiments\SingleCamera\01_single_cam_calib.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02_distortion_correction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CV_Projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3D Experiments/SingleCamera" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3D Experiments/SingleCamera/02_distortion_correction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,27 +186,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Renato\AppData\Local\Programs\Python\Python36\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/User &amp; Consumer/OCR" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/User &amp; Consumer/OCR/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="runMe_MaskRCNN_Video" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,16 +211,16 @@
       <item itemvalue="Python.HeatMap_PoC" />
       <item itemvalue="Python.HeatMap_Threads" />
       <item itemvalue="Python.runMe_MaskRCNN_Video" />
-      <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.01_single_cam_calib" />
+      <item itemvalue="Python.02_distortion_correction" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02_distortion_correction" />
         <item itemvalue="Python.01_single_cam_calib" />
         <item itemvalue="Python.HeatMap_PoC" />
         <item itemvalue="Python.runMe_MaskRCNN_Video" />
         <item itemvalue="Python.HeatMap_Threads" />
-        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
