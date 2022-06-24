@@ -560,7 +560,7 @@ class TensorMask(nn.Module):
             # Ground truth classes
             has_gt = len(targets_im) > 0
             if has_gt:
-                # Compute the pairwise matrix
+                # Compute the pairwise mtx
                 gt_matched_inds, anchor_labels = _assignment_rule(
                     targets_im.gt_boxes, anchors_im, unit_lengths_im, self.min_anchor_size
                 )

@@ -15,7 +15,7 @@ def pairwise_iou_rotated(boxes1, boxes2):
         boxes2 (Tensor[M, 5])
 
     Returns:
-        iou (Tensor[N, M]): the NxM matrix containing the pairwise
+        iou (Tensor[N, M]): the NxM mtx containing the pairwise
             IoU values for every element in boxes1 and boxes2
     """
     return torch.ops.detectron2.box_iou_rotated(boxes1, boxes2)

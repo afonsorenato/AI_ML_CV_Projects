@@ -87,7 +87,7 @@ class IOUWeightedHungarianBBoxIOUTracker(VanillaHungarianBBoxIOUTracker):
 
     def assign_cost_matrix_values(self, cost_matrix: np.ndarray, bbox_pairs: List) -> np.ndarray:
         """
-        Based on IoU for each pair of bbox, assign the associated value in cost matrix
+        Based on IoU for each pair of bbox, assign the associated value in cost mtx
 
         Args:
             cost_matrix: np.ndarray, initialized 2D array with target dimensions

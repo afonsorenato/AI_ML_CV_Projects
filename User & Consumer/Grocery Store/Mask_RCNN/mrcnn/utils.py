@@ -88,7 +88,7 @@ def compute_overlaps(boxes1, boxes2):
     area1 = (boxes1[:, 2] - boxes1[:, 0]) * (boxes1[:, 3] - boxes1[:, 1])
     area2 = (boxes2[:, 2] - boxes2[:, 0]) * (boxes2[:, 3] - boxes2[:, 1])
 
-    # Compute overlaps to generate matrix [boxes1 count, boxes2 count]
+    # Compute overlaps to generate mtx [boxes1 count, boxes2 count]
     # Each cell contains the IoU value.
     overlaps = np.zeros((boxes1.shape[0], boxes2.shape[0]))
     for i in range(overlaps.shape[1]):

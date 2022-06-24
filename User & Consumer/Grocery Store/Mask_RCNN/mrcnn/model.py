@@ -532,7 +532,7 @@ def detection_targets_graph(proposals, gt_class_ids, gt_boxes, gt_masks, config)
     gt_boxes = tf.gather(gt_boxes, non_crowd_ix)
     gt_masks = tf.gather(gt_masks, non_crowd_ix, axis=2)
 
-    # Compute overlaps matrix [proposals, gt_boxes]
+    # Compute overlaps mtx [proposals, gt_boxes]
     overlaps = overlaps_graph(proposals, gt_boxes)
 
     # Compute overlaps with crowd boxes [proposals, crowd_boxes]
@@ -2818,7 +2818,7 @@ def trim_zeros_graph(boxes, name='trim_zeros'):
     """Often boxes are represented with matrices of shape [N, 4] and
     are padded with zeros. This removes zero boxes.
 
-    boxes: [N, 4] matrix of boxes.
+    boxes: [N, 4] mtx of boxes.
     non_zeros: [N] a 1D boolean mask identifying the rows to keep
     """
     non_zeros = tf.cast(tf.reduce_sum(tf.abs(boxes), axis=1), tf.bool)

@@ -65,7 +65,7 @@ def getHeadPose(image, predictor, detector):
         center = (size[1] / 2, size[0] / 2)
         camera_matrix = np.array([[focal_length, 0, center[0]], [0, focal_length, center[1]], [0, 0, 1]], dtype="double")
 
-        dist_coeffs = np.zeros((4, 1))  # Assuming no lens distortion
+        dist_coeffs = np.zeros((4, 1))  # Assuming no lens dist
         (success, rotation_vector, translation_vector) = cv2.solvePnP(model_points, image_points, camera_matrix,dist_coeffs)
         print(rotation_vector[1])
         # rotation_vector[1] = rotation_vector[1]

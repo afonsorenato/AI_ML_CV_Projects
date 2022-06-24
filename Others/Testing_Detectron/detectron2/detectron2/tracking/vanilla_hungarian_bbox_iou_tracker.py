@@ -89,7 +89,7 @@ class VanillaHungarianBBoxIOUTracker(BaseHungarianTracker):
 
     def build_cost_matrix(self, instances: Instances, prev_instances: Instances) -> np.ndarray:
         """
-        Build the cost matrix for assignment problem
+        Build the cost mtx for assignment problem
         (https://en.wikipedia.org/wiki/Assignment_problem)
 
         Args:
@@ -97,7 +97,7 @@ class VanillaHungarianBBoxIOUTracker(BaseHungarianTracker):
             prev_instances: D2 Instances, for previous frame predictions
 
         Return:
-            the cost matrix in numpy array
+            the cost mtx in numpy array
         """
         assert instances is not None and prev_instances is not None
         # calculate IoU of all bbox pairs
@@ -117,7 +117,7 @@ class VanillaHungarianBBoxIOUTracker(BaseHungarianTracker):
 
     def assign_cost_matrix_values(self, cost_matrix: np.ndarray, bbox_pairs: List) -> np.ndarray:
         """
-        Based on IoU for each pair of bbox, assign the associated value in cost matrix
+        Based on IoU for each pair of bbox, assign the associated value in cost mtx
 
         Args:
             cost_matrix: np.ndarray, initialized 2D array with target dimensions

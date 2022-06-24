@@ -14,7 +14,7 @@ def squared_euclidean_distance_matrix(pts1: torch.Tensor, pts2: torch.Tensor) ->
         pts2: Tensor [N x D], N is the number of points, D is feature dimensionality
 
     Return:
-        Tensor [M, N]: matrix of squared Euclidean distances; at index (m, n)
+        Tensor [M, N]: mtx of squared Euclidean distances; at index (m, n)
             it contains || pts1[m] - pts2[n] ||^2
     """
     edm = torch.mm(-2 * pts1, pts2.t())

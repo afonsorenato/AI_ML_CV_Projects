@@ -56,7 +56,7 @@ def getHeadPose(image):
                                   [0, focal_length, center[1]],
                                   [0, 0, 1]], dtype="double")
 
-        dist_coeffs = np.zeros((4, 1))  # Assuming no lens distortion
+        dist_coeffs = np.zeros((4, 1))  # Assuming no lens dist
         (success, rotation_vector, translation_vector) = cv2.solvePnP(
             model_points, image_points, camera_matrix,
             dist_coeffs)
@@ -130,7 +130,7 @@ def getHeadPoseStandalone():
                                     [0, 0, 1]], dtype = "double")
 
 
-            dist_coeffs = np.zeros((4,1)) # Assuming no lens distortion
+            dist_coeffs = np.zeros((4,1)) # Assuming no lens dist
             (success, rotation_vector, translation_vector) = cv2.solvePnP(
                 model_points, image_points, camera_matrix,
                 dist_coeffs)

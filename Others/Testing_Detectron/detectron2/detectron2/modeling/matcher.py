@@ -14,7 +14,7 @@ class Matcher(object):
 
     The matching is determined by the MxN match_quality_matrix, that characterizes
     how well each (ground-truth, prediction)-pair match each other. For example,
-    if the elements are boxes, this matrix may contain box intersection-over-union
+    if the elements are boxes, this mtx may contain box intersection-over-union
     overlap values.
 
     The matcher returns (a) a vector of length N containing the index of the

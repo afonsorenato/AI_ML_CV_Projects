@@ -20,7 +20,7 @@ class RotatedBoxes(Boxes):
     def __init__(self, tensor: torch.Tensor):
         """
         Args:
-            tensor (Tensor[float]): a Nx5 matrix.  Each row is
+            tensor (Tensor[float]): a Nx5 mtx.  Each row is
                 (x_center, y_center, width, height, angle),
                 in which angle is represented in degrees.
                 While there's no strict range restriction for it,
@@ -333,7 +333,7 @@ class RotatedBoxes(Boxes):
         if isinstance(item, int):
             return RotatedBoxes(self.tensor[item].view(1, -1))
         b = self.tensor[item]
-        assert b.dim() == 2, "Indexing on RotatedBoxes with {} failed to return a matrix!".format(
+        assert b.dim() == 2, "Indexing on RotatedBoxes with {} failed to return a mtx!".format(
             item
         )
         return RotatedBoxes(b)

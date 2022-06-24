@@ -136,13 +136,13 @@ class Boxes:
     (support indexing, `to(device)`, `.device`, and iteration over all boxes)
 
     Attributes:
-        tensor (torch.Tensor): float matrix of Nx4. Each row is (x1, y1, x2, y2).
+        tensor (torch.Tensor): float mtx of Nx4. Each row is (x1, y1, x2, y2).
     """
 
     def __init__(self, tensor: torch.Tensor):
         """
         Args:
-            tensor (Tensor[float]): a Nx4 matrix.  Each row is (x1, y1, x2, y2).
+            tensor (Tensor[float]): a Nx4 mtx.  Each row is (x1, y1, x2, y2).
         """
         device = tensor.device if isinstance(tensor, torch.Tensor) else torch.device("cpu")
         tensor = torch.as_tensor(tensor, dtype=torch.float32, device=device)
@@ -231,7 +231,7 @@ class Boxes:
         if isinstance(item, int):
             return Boxes(self.tensor[item].view(1, -1))
         b = self.tensor[item]
-        assert b.dim() == 2, "Indexing on Boxes with {} failed to return a matrix!".format(item)
+        assert b.dim() == 2, "Indexing on Boxes with {} failed to return a mtx!".format(item)
         return Boxes(b)
 
     def __len__(self) -> int:
@@ -399,7 +399,7 @@ def matched_pairwise_iou(boxes1: Boxes, boxes2: Boxes) -> torch.Tensor:
     """
     Compute pairwise intersection over union (IOU) of two sets of matched
     boxes that have the same number of boxes.
-    Similar to :func:`pairwise_iou`, but computes only diagonal elements of the matrix.
+    Similar to :func:`pairwise_iou`, but computes only diagonal elements of the mtx.
 
     Args:
         boxes1 (Boxes): bounding boxes, sized [N,4].

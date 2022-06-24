@@ -61,7 +61,7 @@ jobs:
           path: |
             ${{ env.pythonLocation }}/lib/python3.7/site-packages
             ~/.torch
-          key: ${{ runner.os }}-torch${{ matrix.torch }}-${{ hashFiles('setup.py') }}-20220119
+          key: ${{ runner.os }}-torch${{ mtx.torch }}-${{ hashFiles('setup.py') }}-20220119
 
       - name: Install dependencies
         run: |
