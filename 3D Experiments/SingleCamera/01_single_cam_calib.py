@@ -48,18 +48,14 @@ cv2.destroyAllWindows()
 # and its corresponding pixel coordinates of the detected corners (twoD_points)
 status, mtx, dist, r_vecs, t_vecs = cv2.calibrateCamera(threeD_points, twoD_points, grayColor.shape[::-1], None, None)
 
+# Returns the re-projection error
+estimateReporjectionERror(objectp3d, twoD_points, r_vecs, t_vecs, mtx, dist)
+
 # Displaying required output
-print(" Camera mtx:")
-print(mtx)
-
-print("\n Distortion coefficient:")
-print(dist)
-
-print("\n Rotation Vectors:")
-print(r_vecs)
-
-print("\n Translation Vectors:")
-print(t_vecs)
+print(" Camera mtx:", str(mtx))
+print("\n Distortion coefficient:", str(dist))
+print("\n Rotation Vectors:", str(r_vecs))
+print("\n Translation Vectors:", str(t_vecs))
 
 # transform the mtx and dist coefficients to writable lists
 data = {'camera_matrix': np.asarray(mtx).tolist(),
