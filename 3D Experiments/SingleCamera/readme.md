@@ -20,9 +20,13 @@ x_corrrected = x*(1 + k1*r^2 + k2*r^4 + k3*r^6)
 
 y_corrrected = y*(1 + k1*r^2 + k2*r^4 + k3*r^6)
 
-r = sqrt()
+r = sqrt((xc-xd)^2 + (yc-yd)^2)
 
-** Tangential distortion occuer
+**Tangential distortion** occurs because image taking lense is not aligned perfectly parallel to the imaging plane. So some areas in image may look nearer than expected.
+
+x_corrected = x + [2p1xy + p2(r^2 + 2c^2)]
+
+y_corrected = y + ...
 
 
 

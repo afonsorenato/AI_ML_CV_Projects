@@ -29,13 +29,10 @@ for filename in images:
     if status:
         # Saves the 3D points
         threeD_points.append(objectp3d)
-
         # Refine pixels coordinates
         corners2 = cv2.cornerSubPix(grayColor, corners, (11, 11), (-1, -1), criteria)
-
         # Saves thr 2D points
         twoD_points.append(corners2)
-
         # Draw the displayed corners
         image = cv2.drawChessboardCorners(image, CHECKERBOARD, corners2, status)
 
