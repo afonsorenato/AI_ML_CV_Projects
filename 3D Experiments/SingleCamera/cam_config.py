@@ -6,14 +6,11 @@ import numpy as np
 
 from yaml.loader import SafeLoader
 
-
 # Directory where the chessboard images are
 path = "C:/Users/Renato/OneDrive/Documentos\GitHub\CV_Projects/3D Experiments/SingleCamera/Chessboard_Samples/"
 
 # File with camera parameters
 k_matrix_path = 'calibration_matrix.yaml'
-
-
 
 # Define dimensions of the chessBoard
 # It is the corners, not the squares
@@ -65,3 +62,17 @@ def draw(img, corners, imgpts):
     img = cv2.line(img, corner, tuple(imgpts[2].ravel()), RED, lINE_THICKNESS)
     return img
 
+
+def drawCube(img, corners, imgpts):
+    imgpts = np.int32(imgpts).reshape(-1, 2)
+    # draw ground floor in green
+    img = cv2.drawContours(img, [imgpts[:4]], -1, GREEN, -3)
+
+    # draw pillars in blue color
+    for i, j in zip(range(4), range(4, 8)):
+        img = cv2.line(img, tuple(imgpts[i]), tuple(imgpts[j]), (255), 3)
+
+    # draw top layer in red color
+    img = cv2.drawContours(img, [imgpts[4:]], -1, RED, 3)
+
+    return img

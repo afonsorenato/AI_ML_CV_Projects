@@ -12,7 +12,13 @@ cartesian axis system to estimate the plane's pose.
 # Some initial configuration
 objp = np.zeros((CHECKERBOARD[1] * CHECKERBOARD[0], 3), np.float32)
 objp[:, :2] = np.mgrid[0:CHECKERBOARD[0], 0:CHECKERBOARD[1]].T.reshape(-1, 2)
-axis = np.float32([[3, 0, 0], [0, 3, 0], [0, 0, -3]]).reshape(-1, 3)
+
+# Draw referential only
+# axis = np.float32([[3, 0, 0], [0, 3, 0], [0, 0, -3]]).reshape(-1, 3)
+
+# Draw 3D cube
+axis = np.float32([[0, 0, 0], [0, 3, 0], [3, 3, 0], [3, 0, 0],
+                   [0, 0, -3], [0, 3, -3], [3, 3, -3], [3, 0, -3]])
 
 # Captures video from webcam
 cap = cv.VideoCapture(0)
@@ -37,9 +43,8 @@ while True:
 
         # project 3D points to image plane
         imgpts, jac = cv.projectPoints(axis, r_vector, t_vector, mtx, dist)
-        img = draw(img, corners2, imgpts)
+        img = drawCube(img, corners2, imgpts)
 
     cv.namedWindow("Result", cv.WINDOW_NORMAL)
     cv.imshow('Result', cv2.resize(img, (800, 600)))
     cv.waitKey(1)
-
