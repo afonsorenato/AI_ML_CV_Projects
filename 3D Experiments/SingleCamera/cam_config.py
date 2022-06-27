@@ -10,7 +10,7 @@ from yaml.loader import SafeLoader
 path = "C:/Users/Renato/OneDrive/Documentos\GitHub\CV_Projects/3D Experiments/SingleCamera/Chessboard_Samples/"
 
 # File with camera parameters
-k_matrix_path = 'calibration_matrix.yaml'
+k_matrix_path = 'Results/calibration_matrix.yaml'
 
 # Define dimensions of the chessBoard
 # It is the corners, not the squares

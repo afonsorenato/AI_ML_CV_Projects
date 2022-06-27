@@ -2,6 +2,20 @@
 
 #### Renato Afonso - 2022 - Portugal
 
+## Install all needed requirements
+
+First, please upgrade [pip] installer:
+
+```bash
+python -m pip install --upgrade pip
+```
+
+Please use the package manager [pip] to install:
+```bash
+pip install requirements.txt
+```
+
+
 ## Single camera calibration
 
 1. First define real world coordinates of 3D points using known size of checkerboard pattern.
@@ -28,6 +42,12 @@ x_corrected = x + [2p1xy + p2(r^2 + 2c^2)]
 
 y_corrected = y + ...
 
+
+## Dept estimation
+
+Source: https://medium.com/axinc-ai/midas-a-machine-learning-model-for-depth-estimation-e96119cc1a3c
+
+**Some notes:** MiDAS is a Machine learning model that estimates depth from an arbitrary input image. It is based on ResNet.
 
 
 
