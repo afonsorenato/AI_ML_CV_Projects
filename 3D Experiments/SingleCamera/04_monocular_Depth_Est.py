@@ -4,7 +4,7 @@ import numpy as np
 
 from cam_config import *
 
-path_model = "models/"
+path_model = "Models/"
 
 # Read network
 model_name = "model-f6b98070.onnx"  # large model
