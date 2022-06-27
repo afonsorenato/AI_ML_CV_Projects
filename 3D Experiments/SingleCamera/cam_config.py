@@ -1,20 +1,42 @@
 import os
 import cv2
+import yaml
 import glob
 import numpy as np
+
+from yaml.loader import SafeLoader
+
 
 # Directory where the chessboard images are
 path = "C:/Users/Renato/OneDrive/Documentos\GitHub\CV_Projects/3D Experiments/SingleCamera/Chessboard_Samples/"
 
+# File with camera parameters
+k_matrix_path = 'calibration_matrix.yaml'
+
+
+
 # Define dimensions of the chessBoard
 # It is the corners, not the squares
 CHECKERBOARD = (8, 5)
+
+# Colors and Draws
+RED = (0, 0, 255)
+GREEN = (0, 255, 0)
+BLUE = (255, 0, 0)
+
+lINE_THICKNESS = 5
 
 # Stops the iteration when hits specific accuracy,
 # epsilon and number of iterations
 criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER,
             30,  # iterations
             0.001)  # epsilon
+
+# Open the file and load the file
+with open(k_matrix_path) as f:
+    data = yaml.load(f, Loader=SafeLoader)
+
+mtx, dist = np.float32(data.get("camera_matrix")), np.float32(data.get("dist_coeff"))
 
 
 def estimateReporjectionERror(objpoints, imgpoints, rvecs, tvecs, mtx, dist):
@@ -35,4 +57,11 @@ def estimateReporjectionERror(objpoints, imgpoints, rvecs, tvecs, mtx, dist):
 
     print("Total error: ", mean_error / len(objpoints))
 
+
+def draw(img, corners, imgpts):
+    corner = tuple(corners[0].ravel())
+    img = cv2.line(img, corner, tuple(imgpts[0].ravel()), BLUE, lINE_THICKNESS)
+    img = cv2.line(img, corner, tuple(imgpts[1].ravel()), GREEN, lINE_THICKNESS)
+    img = cv2.line(img, corner, tuple(imgpts[2].ravel()), RED, lINE_THICKNESS)
+    return img
 
