@@ -5,6 +5,7 @@ import numpy as np
 from cam_config import *
 
 """
+Renato Afonso - 2022
 This script gets a live streaming from the webcam and, if a chessboard (8x5) is placed on sight, it will draw a 3D 
 cartesian axis system to estimate the plane's pose.
 """
@@ -23,7 +24,7 @@ axis = np.float32([[0, 0, 0], [0, 3, 0], [3, 3, 0], [3, 0, 0],
 # Captures video from webcam
 cap = cv.VideoCapture(0)
 
-while True:
+while cap.isOpened():
 
     # Get img sample from webcam
     ok, img = cap.read()

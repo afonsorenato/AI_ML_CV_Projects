@@ -3,6 +3,11 @@ import yaml
 from cam_config import *
 from yaml.loader import SafeLoader
 
+"""
+Renato Afonso - 2022
+This script consists, after having calibrated the camera, perform distortion correction using the undistort method.
+"""
+
 # Relevant Paths
 image_path = "Chessboard_Samples/calib (22).jpg"
 k_matrix_path = 'calibration_matrix.yaml'

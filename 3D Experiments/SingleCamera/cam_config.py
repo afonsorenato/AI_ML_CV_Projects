@@ -22,6 +22,7 @@ GREEN = (0, 255, 0)
 BLUE = (255, 0, 0)
 
 lINE_THICKNESS = 5
+FONT = cv2.FONT_HERSHEY_SIMPLEX
 
 # Stops the iteration when hits specific accuracy,
 # epsilon and number of iterations

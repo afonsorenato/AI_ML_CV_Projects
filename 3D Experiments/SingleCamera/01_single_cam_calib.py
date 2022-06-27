@@ -6,6 +6,11 @@ import numpy as np
 
 from cam_config import *
 
+"""
+Renato Afonso - 2022
+This script consists on inputing several chessboad images to perform intrinsic parameters camera calibration
+"""
+
 # Vector for 2D and 3D points
 threeD_points = []
 twoD_points = []
