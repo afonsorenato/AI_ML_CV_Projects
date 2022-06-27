@@ -53,6 +53,6 @@ while cap.isOpened():
     cv2.imshow("Depth Map", output)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
-        cv2.imwrite('./Results/depth_map1.png', output*255)
+        cv2.imwrite('./Results/depth_map2.png', output*255)
         break
 

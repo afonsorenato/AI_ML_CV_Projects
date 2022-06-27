@@ -10,7 +10,7 @@ This script consists, after having calibrated the camera, perform distortion cor
 
 # Relevant Paths
 image_path = "Chessboard_Samples/calib (22).jpg"
-k_matrix_path = 'calibration_matrix.yaml'
+k_matrix_path = 'Results/calibration_matrix.yaml'
 
 # Method to correct distortion of a given image, knowing the camera K matrix
 def undistortImage(mtx, dist, img):

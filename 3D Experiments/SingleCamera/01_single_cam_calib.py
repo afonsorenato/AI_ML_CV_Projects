@@ -64,5 +64,5 @@ data = {'camera_matrix': np.asarray(mtx).tolist(),
         'dist_coeff': np.asarray(dist).tolist()}
 
 # and save it to a file
-with open("calibration_matrix.yaml", "w") as f:
+with open("Results/calibration_matrix.yaml", "w") as f:
     yaml.dump(data, f)
