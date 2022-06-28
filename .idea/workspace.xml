@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c33c06da-8ebe-42ed-b9ba-bfba34fcc063" name="Default Changelist" comment="Created OCR project">
-      <change afterPath="$PROJECT_DIR$/3D Experiments/SingleCamera/Results/depth_map2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CV_Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CV_Projects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3D Experiments/SingleCamera/01_single_cam_calib.py" beforeDir="false" afterPath="$PROJECT_DIR$/3D Experiments/SingleCamera/01_single_cam_calib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3D Experiments/SingleCamera/02_distortion_correction.py" beforeDir="false" afterPath="$PROJECT_DIR$/3D Experiments/SingleCamera/02_distortion_correction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3D Experiments/SingleCamera/04_monocular_Depth_Est.py" beforeDir="false" afterPath="$PROJECT_DIR$/3D Experiments/SingleCamera/04_monocular_Depth_Est.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3D Experiments/SingleCamera/05_monocular_Depth_Est_MiDas.py" beforeDir="false" afterPath="$PROJECT_DIR$/3D Experiments/SingleCamera/05_monocular_Depth_Est_MiDas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3D Experiments/SingleCamera/06_draw3D_DepthMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/3D Experiments/SingleCamera/06_draw3D_DepthMap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3D Experiments/SingleCamera/calibration_matrix.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/3D Experiments/SingleCamera/Results/calibration_matrix.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3D Experiments/SingleCamera/cam_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/3D Experiments/SingleCamera/cam_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3D Experiments/SingleCamera/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/3D Experiments/SingleCamera/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3D Experiments/StereoVision/01_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Others/Mask_R_CNN/Mask_RCNN/mrcnn/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Mask_R_CNN/Mask_RCNN/mrcnn/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Others/Mask_R_CNN/Mask_RCNN/mrcnn/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Mask_R_CNN/Mask_RCNN/mrcnn/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/Identify_and_calculate_area_of_an_Object.ipynb" beforeDir="false" />
@@ -39,7 +29,6 @@
       <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/nucleus/nucleus.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/shapes/shapes.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/samples/shapes/train_shapes.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/3D Experiments/SingleCamera/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
