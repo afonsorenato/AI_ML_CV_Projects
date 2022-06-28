@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jun 24 11:44:39 2022
+# Make data base, printed on Tue Jun 28 10:11:50 2022
 
 # Variables
 
@@ -21,7 +21,7 @@ USERPROFILE = C:\Users\Renato
 # environment
 LOCALAPPDATA = C:\Users\Renato\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-28bb664d-357c-49e7-9ccd-aaf5a38da108-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-2636a1a5-83a4-4536-b32a-1cd5dc3460d8-sock
 # environment
 VSCODE_CWD = C:\Users\Renato\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -35,7 +35,7 @@ MAKE_COMMAND := make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8772_SAERXYBFKENNUSPT
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_26112_UAATIQIGDDLJFRSV
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -87,7 +87,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 8772
+VSCODE_PID = 26112
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -215,7 +215,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/opencvtest, mtime 1656066952): 7 files, no impossibilities.
+# . (key c:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/opencvtest, mtime 1656067566): 7 files, no impossibilities.
 
 # 7 files, no impossibilities in 1 directories.
 
@@ -280,6 +280,6 @@ GNUmakefile:
 # strcache performance: lookups = 17 / hit rate = 17%
 # hash-table stats:
 # Load=14/8192=0%, Rehash=0, Collisions=0/17=0%
-# Finished Make data base on Fri Jun 24 11:44:39 2022
+# Finished Make data base on Tue Jun 28 10:11:50 2022
 
  
