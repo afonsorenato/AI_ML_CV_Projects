@@ -1,7 +1,0 @@
-[
-{
-  "directory": "C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/opencvtest/build",
-  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/opencvtest.dir/includes_CXX.rsp -g -o CMakeFiles/opencvtest.dir/main.cpp.obj -c \"C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/opencvtest/main.cpp\"",
-  "file": "C:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/opencvtest/main.cpp"
-}
-]

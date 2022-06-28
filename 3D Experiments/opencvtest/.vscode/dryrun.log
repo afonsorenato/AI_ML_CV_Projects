@@ -1,6 +1,0 @@
-make.exe --dry-run --always-make --keep-going --print-directory
-make: Entering directory 'c:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/opencvtest'
-make: Leaving directory 'c:/Users/Renato/OneDrive/Documentos/GitHub/CV_Projects/3D Experiments/opencvtest'
- 
-make: *** No targets specified and no makefile found.  Stop.
-
