@@ -10,9 +10,11 @@ import copy
 import sys
 import os
 
-# Voxel: group of 3D points that is used to down-sample a PC
-# Points are bucketed into voxels (groups, buckets)
-# Each occupied voxel generates exatly one point by averaging all points inside
+"""
+Voxel: group of 3D points that is used to down-sample a Point-cloud.
+Points are bucketed into voxels (groups, buckets).
+Each occupied voxel generates exatly one point by averaging all points inside
+"""
 print("Loading point-cloud, print and render it:")
 
 # Reads the point-cloud
