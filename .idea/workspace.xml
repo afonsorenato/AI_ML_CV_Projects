@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c33c06da-8ebe-42ed-b9ba-bfba34fcc063" name="Default Changelist" comment="Created OCR project">
-      <change afterPath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/03_PointCloudClustering.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/Samples_PointClouds/cropped.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/02_VoxelDownsampling.py" beforeDir="false" afterPath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/02_VoxelDownsampling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/04_pointCloudFromDepthMap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Others/Mask_R_CNN/Mask_RCNN/mrcnn/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Mask_R_CNN/Mask_RCNN/mrcnn/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Others/Mask_R_CNN/Mask_RCNN/mrcnn/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Mask_R_CNN/Mask_RCNN/mrcnn/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/Identify_and_calculate_area_of_an_Object.ipynb" beforeDir="false" />
