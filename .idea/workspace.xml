@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c33c06da-8ebe-42ed-b9ba-bfba34fcc063" name="Default Changelist" comment="Created OCR project">
-      <change afterPath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/04_pointCloudFromDepthMap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/05_monoCameraPointCloudRealTime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/Samples_PointClouds/00002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/Samples_PointClouds/ren_depth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/depth_raw.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/04_pointCloudFromDepthMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/04_pointCloudFromDepthMap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3D Experiments/SingleCamera/05_monocular_Depth_Est_MiDas.py" beforeDir="false" afterPath="$PROJECT_DIR$/3D Experiments/SingleCamera/05_monocular_Depth_Est_MiDas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Others/Mask_R_CNN/Mask_RCNN/mrcnn/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Mask_R_CNN/Mask_RCNN/mrcnn/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Others/Mask_R_CNN/Mask_RCNN/mrcnn/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Mask_R_CNN/Mask_RCNN/mrcnn/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/Identify_and_calculate_area_of_an_Object.ipynb" beforeDir="false" />
@@ -93,56 +99,14 @@
       <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\Others\Mask_R_CNN\Mask_RCNN" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\3D Experiments\PointCloudsExperiments" />
       <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\3D Experiments\PointCloudsExperiments\Samples_PointClouds" />
+      <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\3D Experiments\PointCloudsExperiments" />
       <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\3D Experiments\ScenarioReconstruction3D\Samples" />
       <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\3D Experiments\StereoVision\Results" />
       <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\3D Experiments\SingleCamera\Results" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.03_PointCloudClustering">
-    <configuration name="01_StereoCalibration" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CV_Projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3D Experiments/StereoVision" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3D Experiments/StereoVision/01_StereoCalibration.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="01_pointOpen3D" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CV_Projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/01_pointOpen3D.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.05_monoCameraPointCloudRealTime">
     <configuration name="02_VoxelDownsampling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CV_Projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BasicStereoComputation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="04_pointCloudFromDepthMap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CV_Projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,11 +157,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3D Experiments/ScenarioReconstruction3D" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\3D Experiments\ScenarioReconstruction3D\BasicStereoComputation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/04_pointCloudFromDepthMap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="05_monoCameraPointCloudRealTime" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CV_Projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/05_monoCameraPointCloudRealTime.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="05_monocular_Depth_Est_MiDas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CV_Projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3D Experiments/SingleCamera" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3D Experiments/SingleCamera/05_monocular_Depth_Est_MiDas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,19 +213,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.01_StereoCalibration" />
-      <item itemvalue="Python.BasicStereoComputation" />
-      <item itemvalue="Python.01_pointOpen3D" />
       <item itemvalue="Python.02_VoxelDownsampling" />
       <item itemvalue="Python.03_PointCloudClustering" />
+      <item itemvalue="Python.04_pointCloudFromDepthMap" />
+      <item itemvalue="Python.05_monocular_Depth_Est_MiDas" />
+      <item itemvalue="Python.05_monoCameraPointCloudRealTime" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.05_monoCameraPointCloudRealTime" />
+        <item itemvalue="Python.04_pointCloudFromDepthMap" />
+        <item itemvalue="Python.05_monocular_Depth_Est_MiDas" />
         <item itemvalue="Python.03_PointCloudClustering" />
         <item itemvalue="Python.02_VoxelDownsampling" />
-        <item itemvalue="Python.01_pointOpen3D" />
-        <item itemvalue="Python.BasicStereoComputation" />
-        <item itemvalue="Python.01_StereoCalibration" />
       </list>
     </recent_temporary>
   </component>
