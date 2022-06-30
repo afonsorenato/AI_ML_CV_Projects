@@ -66,11 +66,14 @@ while cap.isOpened():
     depth_map = (depth_map*255).astype(np.uint8)
     depth_map = cv2.applyColorMap(depth_map , cv2.COLORMAP_MAGMA)
 
-    cv2.putText(img, f'FPS: {int(fps)}', (20,70), cv2.FONT_HERSHEY_SIMPLEX, 1.5, (0,255,0), 2)
+    #cv2.putText(img, f'FPS: {int(fps)}', (20,70), cv2.FONT_HERSHEY_SIMPLEX, 1.5, (0,255,0), 2)
     cv2.imshow('Image', img)
     cv2.imshow('Depth Map', depth_map)
 
-    if cv2.waitKey(5) & 0xFF == 27:
+    if cv2.waitKey(1) == ord('q'):
+        print("Saving images!\n")
+        cv2.imwrite("../PointCloudsExperiments/Samples_PointClouds/ren_depth.png", depth_map)
+        cv2.imwrite("../PointCloudsExperiments/Samples_PointClouds/ren_color.jpg", img)
         break
 
 cap.release()
