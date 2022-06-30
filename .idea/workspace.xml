@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c33c06da-8ebe-42ed-b9ba-bfba34fcc063" name="Default Changelist" comment="Created OCR project">
-      <change afterPath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/06_smartphonePointCloud.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/Samples_PointClouds/room_video.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/06_poseEstimationPointCloud.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/02_VoxelDownsampling.py" beforeDir="false" afterPath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/02_voxelDownsampling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/03_PointCloudClustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/03_pointCloudClustering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/06_smartphonePointCloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/06_smartphonePointCloud.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Others/Mask_R_CNN/Mask_RCNN/mrcnn/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Mask_R_CNN/Mask_RCNN/mrcnn/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Others/Mask_R_CNN/Mask_RCNN/mrcnn/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Mask_R_CNN/Mask_RCNN/mrcnn/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User &amp; Consumer/Grocery Store/Mask_RCNN/Identify_and_calculate_area_of_an_Object.ipynb" beforeDir="false" />
@@ -103,8 +103,8 @@
       <recent name="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\3D Experiments\SingleCamera\Results" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.05_monoCameraPointCloudRealTime">
-    <configuration name="02_VoxelDownsampling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.06_smartphonePointCloud">
+    <configuration name="03_pointCloudClustering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CV_Projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,28 +116,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/02_VoxelDownsampling.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="03_PointCloudClustering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CV_Projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/03_PointCloudClustering.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Renato\OneDrive\Documentos\GitHub\CV_Projects\3D Experiments\PointCloudsExperiments\03_pointCloudClustering.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,20 +188,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="06_smartphonePointCloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CV_Projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3D Experiments/PointCloudsExperiments/06_smartphonePointCloud.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.02_VoxelDownsampling" />
-      <item itemvalue="Python.03_PointCloudClustering" />
       <item itemvalue="Python.04_pointCloudFromDepthMap" />
       <item itemvalue="Python.05_monocular_Depth_Est_MiDas" />
       <item itemvalue="Python.05_monoCameraPointCloudRealTime" />
+      <item itemvalue="Python.06_smartphonePointCloud" />
+      <item itemvalue="Python.03_pointCloudClustering" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.06_smartphonePointCloud" />
         <item itemvalue="Python.05_monoCameraPointCloudRealTime" />
         <item itemvalue="Python.04_pointCloudFromDepthMap" />
         <item itemvalue="Python.05_monocular_Depth_Est_MiDas" />
-        <item itemvalue="Python.03_PointCloudClustering" />
-        <item itemvalue="Python.02_VoxelDownsampling" />
+        <item itemvalue="Python.03_pointCloudClustering" />
       </list>
     </recent_temporary>
   </component>
