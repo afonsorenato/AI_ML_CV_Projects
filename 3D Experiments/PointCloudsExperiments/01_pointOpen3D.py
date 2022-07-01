@@ -14,9 +14,8 @@ import os
 # This one as 173000 points to draw the 3D object
 #pcd = o3d.io.read_point_cloud("Samples_PointClouds/armadillo.ply")
 #pcd = o3d.io.read_point_cloud("Samples_PointClouds/fragment.ply")
-pcd = o3d.io.read_point_cloud("Samples_PointClouds/my_room2.ply")
+#pcd = o3d.io.read_point_cloud("Samples_PointClouds/my_room2.ply")
+pcd = o3d.io.read_point_cloud("Samples_PointClouds/pointCloudMySelf.ply")
 
-
-print(pcd)
-print(np.asarray(pcd.points))
+pcd.transform([[1, 0, 0, 0], [0, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, 1]])
 o3d.visualization.draw_geometries([pcd])
