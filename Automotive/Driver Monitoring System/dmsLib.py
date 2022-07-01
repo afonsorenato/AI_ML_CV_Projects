@@ -1,5 +1,6 @@
 import numpy as np
-import cv2, pickle, os, dlib, time
+import cv2, pickle
+import os, dlib, time
 
 from playsound import playsound
 
