@@ -60,6 +60,7 @@ o3d.visualization.draw_geometries([downpcd],
 print("\nPrint a normal vector of the 0th point.")
 print(downpcd.normals[0])
 
+# Prints the first 10 normal vector points
 print("\nPrint a normal vector of the first 10 points.")
 print(np.asarray(downpcd.normals)[:10, :])
 
