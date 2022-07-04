@@ -48,6 +48,7 @@ o3d.visualization.draw_geometries([downpcd],
 # Press N to see point normals and +, - to control the length of the normal
 print("\nRecompute the normal of the down-sampled points.")
 
+# Defines the voxel size to perfom the downsampling
 downpcd.estimate_normals(search_param=o3d.geometry.KDTreeSearchParamHybrid(radius=0.1, max_nn=30))
 o3d.visualization.draw_geometries([downpcd],
                                   zoom=0.3412,
