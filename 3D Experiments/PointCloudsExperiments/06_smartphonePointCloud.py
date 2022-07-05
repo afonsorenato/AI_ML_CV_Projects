@@ -12,6 +12,7 @@ point clouds and an initial tranformation that align with the source point
 cloud to the target point cloud.
 
 The output is a refined transformation that alights the two point clouds.
+Ideally would have an iphone with lidar capabilities.
 """
 
 images = [cv2.imread("Samples_PointClouds/Room_Reconstruct/00001.tiff"),
