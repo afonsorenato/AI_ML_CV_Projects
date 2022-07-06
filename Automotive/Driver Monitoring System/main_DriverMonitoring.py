@@ -7,6 +7,7 @@ import numpy as np
 from config import *
 from Aux_Files import DriverID
 
+# Get video streaming from Webcam
 cap = cv2.VideoCapture(0)
 
 while True:
