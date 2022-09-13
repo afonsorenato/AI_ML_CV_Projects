@@ -3,6 +3,13 @@ import cv2, pickle
 import os, dlib, time
 
 from playsound import playsound
+from Aux_Files import *
+from Aux_Files import DriverID
+
+RED = (0, 0, 255)
+GREEN = (0, 255, 0)
+BLUE = (255, 0, 0)
+THICKNESS = 2
 
 
 def getModelsParameters():
@@ -48,21 +55,21 @@ def getEyeClose(frame, predictor_path, predictor, detector, count):
 
         EAR_avg = getEAR(landmarks)
         if EAR_avg > 0.25:
-            cv2.putText(frame, "Eye's open", (400, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)
+            cv2.putText(frame, "Eye's open", (400, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, GREEN, THICKNESS, cv2.LINE_AA)
             count = 0
             frame = getOrientation(frame, detector, predictor)
         else:
-            cv2.putText(frame, "Eye's closed", (400, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2, cv2.LINE_AA)
+            cv2.putText(frame, "Eye's closed", (400, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, RED, THICKNESS, cv2.LINE_AA)
             count = count + 1
             for i in range(0, 68):
                 x = landmarks.part(i).x
                 y = landmarks.part(i).y
-                frame = cv2.circle(frame, (x, y), 2, (0, 0, 255), -1)
+                frame = cv2.circle(frame, (x, y), 2, RED, -1)
 
             if count >= SleepAlertTime * 30:  # Assumed almost 2 seconds
-                #playsound('Others/DrowsyWarning.wav')
+                # playsound('Others/DrowsyWarning.wav')
                 cv2.putText(frame, "WARNING! SLEEPY!", (400, 400),
-                            cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 10, cv2.LINE_AA)
+                            cv2.FONT_HERSHEY_SIMPLEX, 1, THICKNESS, 10, cv2.LINE_AA)
 
                 count = 0
 
@@ -83,15 +90,15 @@ def getOrientation(image, detector, predictor):
 
         if (rat >= 2.5):
             str = "Looking to the left"
-            color = (0, 0, 255)
+            color = RED
         elif (rat <= 0.4):
             str = "Looking to the right"
-            color = (0, 0, 255)
+            color = RED
         else:
             str = "Looking forward"
-            color = (0, 255, 0)
+            color = GREEN
 
-        cv2.putText(image, str, (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, color, 2, cv2.LINE_AA)
+        cv2.putText(image, str, (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, color, THICKNESS, cv2.LINE_AA)
 
         for i in range(1, 68):
             x = landmarks.part(i).x
@@ -142,9 +149,9 @@ def getCellPhone(img, net, classes, color):
             x, y, w, h = boxes[i]
             label = str(classes[class_ids[i]])
             if class_ids[i] > 1:
-                cv2.rectangle(img, (x, y), (x + w, y + h), (0, 0, 255), 2)
-                cv2.putText(img, label, (x, y - 10), font, 1, (0, 0, 255), 1)
-                color = (0, 0, 255)
+                cv2.rectangle(img, (x, y), (x + w, y + h), RED, THICKNESS)
+                cv2.putText(img, label, (x, y - 10), font, 1, RED, 1)
+                color = RED
 
     return img, color
 
@@ -164,7 +171,7 @@ def getHeadPose(image, predictor, detector):
         for i in [8, 34, 41, 46, 60, 54]:
             x = landmarks.part(i).x
             y = landmarks.part(i).y
-            cv2.circle(image, (x, y), 2, (0, 0, 255), -1)
+            cv2.circle(image, (x, y), THICKNESS, RED, -1)
 
         # 3D model points of the face
         model_points = np.array([
@@ -204,7 +211,7 @@ def getHeadPose(image, predictor, detector):
 
         p1 = (int(image_points[0][0]), int(image_points[0][1]))
         p2 = (int(nose_end_point2D[0][0][0]), int(nose_end_point2D[0][0][1]))
-        cv2.line(image, p1, p2, (255, 0, 0), 2)
+        cv2.line(image, p1, p2, BLUE, THICKNESS)
 
     return image
 
@@ -223,7 +230,7 @@ def welcomeFunction(cap):
             name = DriverID.getDriverID(frame, labels, recognizer)
         else:
             flag = True
-            cv2.putText(frame, name, (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2, cv2.LINE_AA)
+            cv2.putText(frame, name, (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, RED, THICKNESS, cv2.LINE_AA)
             cv2.imshow("Image", frame)
             cv2.waitKey(2000)
             print(name)

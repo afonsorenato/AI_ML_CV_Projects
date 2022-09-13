@@ -1,10 +1,9 @@
 import cv2
 import time
-import dlib
-import dmsLib
 import numpy as np
 
 from config import *
+from dmsLib import *
 from Aux_Files import DriverID
 
 # Get video streaming from Webcam
@@ -21,7 +20,7 @@ while True:
     frame, count = dmsLib.getEyeClose(frame, predictor_path, predictor, detector, count)
 
     # Detects if there is a phone on scene
-    frame, color = dmsLib.getCellPhone(frame, net, dmsLib.getClasses(), (0, 255, 0))
+    frame, color = dmsLib.getCellPhone(frame, net, dmsLib.getClasses(), GREEN)
     frame = cv2.resize(frame, frame_size)
 
     # Display
