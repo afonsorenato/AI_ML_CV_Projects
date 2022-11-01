@@ -1,0 +1,26 @@
+<annotation>
+	<folder>100_1</folder>
+	<filename>Assault_Rifle_1540_44.jpg</filename>
+	<path>C:\Users\Ashwani\Downloads\100_1\100_1\Assault_Rifle_1540_44.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>400</width>
+		<height>269</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Gun</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>57</xmin>
+			<ymin>103</ymin>
+			<xmax>302</xmax>
+			<ymax>255</ymax>
+		</bndbox>
+	</object>
+</annotation>

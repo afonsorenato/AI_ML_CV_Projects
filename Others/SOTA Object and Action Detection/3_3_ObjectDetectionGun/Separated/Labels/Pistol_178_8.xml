@@ -1,0 +1,26 @@
+<annotation>
+	<folder>MovieVideo</folder>
+	<filename>Pistol_178_8.jpg</filename>
+	<path>C:\Users\Ashwani\Downloads\5000_1\5000_1\MovieVideo\Pistol_178_8.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>601</width>
+		<height>250</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Guns</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>263</xmin>
+			<ymin>46</ymin>
+			<xmax>330</xmax>
+			<ymax>122</ymax>
+		</bndbox>
+	</object>
+</annotation>

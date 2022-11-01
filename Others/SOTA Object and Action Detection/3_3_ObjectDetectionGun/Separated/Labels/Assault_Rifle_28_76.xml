@@ -1,0 +1,26 @@
+<annotation>
+	<folder>100_1</folder>
+	<filename>Assault_Rifle_28_76.jpg</filename>
+	<path>C:\Users\Ashwani\Downloads\100_1\100_1\Assault_Rifle_28_76.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>338</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Gun</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>343</xmin>
+			<ymin>49</ymin>
+			<xmax>384</xmax>
+			<ymax>120</ymax>
+		</bndbox>
+	</object>
+</annotation>

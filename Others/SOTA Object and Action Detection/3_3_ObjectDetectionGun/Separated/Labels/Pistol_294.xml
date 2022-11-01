@@ -1,0 +1,26 @@
+<annotation>
+	<folder>P</folder>
+	<filename>Pistol_294.jpg</filename>
+	<path>C:\Users\Ashwani\Downloads\5000_1\5000_1\StockImages\P\Pistol_294.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>235</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Guns</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4</xmin>
+			<ymin>5</ymin>
+			<xmax>288</xmax>
+			<ymax>227</ymax>
+		</bndbox>
+	</object>
+</annotation>

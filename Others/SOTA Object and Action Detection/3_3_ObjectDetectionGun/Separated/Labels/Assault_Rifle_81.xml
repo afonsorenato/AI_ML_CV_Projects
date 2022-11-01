@@ -1,0 +1,26 @@
+<annotation>
+	<folder>AR</folder>
+	<filename>Assault_Rifle_81.jpg</filename>
+	<path>C:\Users\Ashwani\Downloads\5000_1\5000_1\StockImages\AR\Assault_Rifle_81.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>400</width>
+		<height>205</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Guns</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>3</ymin>
+			<xmax>400</xmax>
+			<ymax>205</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>MovieVideo</folder>
+	<filename>Pistol_70_41.jpg</filename>
+	<path>C:\Users\Ashwani\Downloads\5000_1\5000_1\MovieVideo\Pistol_70_41.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>375</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Guns</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>183</xmin>
+			<ymin>239</ymin>
+			<xmax>254</xmax>
+			<ymax>360</ymax>
+		</bndbox>
+	</object>
+</annotation>

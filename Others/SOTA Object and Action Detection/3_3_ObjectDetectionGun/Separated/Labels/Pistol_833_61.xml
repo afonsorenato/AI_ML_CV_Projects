@@ -1,0 +1,26 @@
+<annotation>
+	<folder>MovieVideo</folder>
+	<filename>Pistol_833_61.jpg</filename>
+	<path>C:\Users\Ashwani\Downloads\5000_1\5000_1\MovieVideo\Pistol_833_61.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>330</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Guns</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>230</xmin>
+			<ymin>27</ymin>
+			<xmax>458</xmax>
+			<ymax>288</ymax>
+		</bndbox>
+	</object>
+</annotation>

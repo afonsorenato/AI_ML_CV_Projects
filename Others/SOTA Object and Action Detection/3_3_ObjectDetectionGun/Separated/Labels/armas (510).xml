@@ -1,0 +1,26 @@
+<annotation>
+	<folder>100_1</folder>
+	<filename>armas (510).jpg</filename>
+	<path>C:\Users\Ashwani\Downloads\100_1\100_1\armas (510).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>168</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Gun</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>174</xmin>
+			<ymin>71</ymin>
+			<xmax>201</xmax>
+			<ymax>94</ymax>
+		</bndbox>
+	</object>
+</annotation>

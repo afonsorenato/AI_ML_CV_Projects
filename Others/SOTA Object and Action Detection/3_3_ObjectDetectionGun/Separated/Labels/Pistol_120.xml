@@ -1,0 +1,26 @@
+<annotation>
+	<folder>100_1</folder>
+	<filename>Pistol_120.jpg</filename>
+	<path>C:\Users\Ashwani\Downloads\100_1\100_1\Pistol_120.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>400</width>
+		<height>281</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Gun</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>8</xmin>
+			<ymin>7</ymin>
+			<xmax>392</xmax>
+			<ymax>275</ymax>
+		</bndbox>
+	</object>
+</annotation>
